@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: #fff;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: #fff;
+  font-weight: 370;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,14 +17,54 @@
   }
 }
 
+html { scroll-behavior: smooth; }
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /*color: rgb(var(--foreground-rgb));*/
+  /*background: linear-gradient(*/
+  /*    to bottom,*/
+  /*    transparent,*/
+  /*    rgb(var(--background-end-rgb))*/
+  /*  )*/
+  /*  rgb(var(--background-start-rgb));*/
+}
+
+/*burger-menu*/
+
+.burger-menu {
+  cursor: pointer;
+  width: 30px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.burger div {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  margin: 4px 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.burger.open .line1 {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.burger.open .line2 {
+  opacity: 0;
+}
+
+.burger.open .line3 {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 @layer utilities {
