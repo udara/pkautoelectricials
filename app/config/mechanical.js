@@ -255,93 +255,93 @@ module.exports = {
             shortDescription: 'We offer comprehensive engine repair and maintenance services to keep your vehicle running at its best. From diagnostics and oil changes to full engine rebuilds, our expert technicians ensure your engine operates smoothly and reliably',
             longDescription: 'We specialize in providing top-quality engine repair and maintenance services to keep your vehicle performing at its peak. Our experienced technicians handle everything from routine oil changes and spark plug replacements to complex diagnostics and full engine rebuilds. Whether you\'re dealing with a minor issue or need a major repair, we use the latest tools and techniques to ensure your engine runs efficiently and reliably. Trust us to keep your engine in top condition, extending the life of your vehicle and ensuring a smooth, safe driving experience',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
-            image: 'engine-repair-and-services',
-            imageExtension: 'jpg',
+            image: 'engine-repair-and-services.png',
+            imageExtension: 'png',
             keywords: ['Engine Diagnostics', 'Oil Change and Filter Replacement', 'Timing Belt/Chain Replacement', 'Spark Plug Replacement', 'Engine Tune-Up', 'Head Gasket Replacement', 'Cooling System Service', 'Fuel System Repair', 'Engine Overhaul/Rebuild', 'Belt and Hose Replacement', 'Exhaust System Repair', 'Engine Mount Replacement', 'Air Intake System Service', 'Emission System Repairs'],
             subServices: [
                 {
                     name: 'Engine Diagnostics',
                     description: 'We use specialized tools to identify engine issues through fault codes, performance tests, and visual inspections',
-                    image: 'engine-diagnostics',
-                    imageExtension: 'jpg'
+                    image: 'engine-diagnostics.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Oil Change and Filter Replacement',
                     description: 'Draining old engine oil, replacing it with fresh oil, and installing a new oil filter',
-                    image: 'oil-change-and-filter-replacement',
-                    imageExtension: 'jpg'
+                    image: 'oil-change-and-filter-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Timing Belt/Chain Replacement',
                     description: 'Replacing the timing belt or chain that synchronizes the engine\'s camshaft and crankshaft, ensuring proper valve timing',
-                    image: 'timing-belt-chain-replacement',
-                    imageExtension: 'jpg'
+                    image: 'timing-belt-chain-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Spark Plug Replacement',
                     description: 'Replacing the spark plugs that ignite the fuel-air mixture in the engine\'s cylinders.',
-                    image: 'spark-plug-replacement',
-                    imageExtension: 'jpg'
+                    image: 'spark-plug-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Engine Tune-Up',
                     description: 'A series of maintenance tasks, including spark plug replacement, air filter replacement, and adjusting engine timing and idle speed',
-                    image: 'engine-tune-up',
-                    imageExtension: 'jpg'
+                    image: 'engine-tune-up.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Head Gasket Replacement',
                     description: 'Replacing the head gasket, which seals the engine block and cylinder head, preventing leaks of coolant, oil, and combustion gases',
-                    image: 'head-gasket-replacement',
-                    imageExtension: 'jpg'
+                    image: 'head-gasket-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Cooling System Service',
                     description: 'Flushing and refilling the coolant, inspecting and replacing hoses, and checking the radiator and water pump',
-                    image: 'cooling-system-service',
-                    imageExtension: 'jpg'
+                    image: 'cooling-system-service.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Fuel System Repair',
                     description: 'Cleaning or replacing fuel injectors, inspecting the fuel pump, and replacing fuel filters',
-                    image: 'fuel-system-repair',
-                    imageExtension: 'jpg'
+                    image: 'fuel-system-repair.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Engine Overhaul/Rebuild',
                     description: 'Disassembling the engine, inspecting and replacing worn or damaged parts, and reassembling the engine',
-                    image: 'engine-overhaul-rebuild',
-                    imageExtension: 'jpg'
+                    image: 'engine-overhaul-rebuild.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Belt and Hose Replacement',
                     description: 'Replacing worn or cracked belts and hoses that connect various engine components.',
-                    image: 'belt-and-hose-replacement',
-                    imageExtension: 'jpg'
+                    image: 'belt-and-hose-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Exhaust System Repair',
                     description: 'Inspecting and repairing or replacing components of the exhaust system, including the muffler, catalytic converter, and exhaust pipes',
-                    image: 'exhaust-system-repair',
-                    imageExtension: 'jpg'
+                    image: 'exhaust-system-repair.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Engine Mount Replacement',
                     description: 'Replacing the mounts that secure the engine to the vehicle’s frame',
-                    image: 'engine-mount-replacement',
-                    imageExtension: 'jpg'
+                    image: 'engine-mount-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Air Intake System Service',
                     description: 'Cleaning or replacing air filters, and inspecting the air intake manifold and sensors',
-                    image: 'air-intake-system-service',
-                    imageExtension: 'jpg'
+                    image: 'air-intake-system-service.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Emission System Repairs',
                     description: 'Inspecting and repairing components like the oxygen sensors, EGR valve, and catalytic converter that control emissions',
-                    image: 'emission-system-repairs',
-                    imageExtension: 'jpg'
+                    image: 'emission-system-repairs.png',
+                    imageExtension: 'png'
                 }
             ]
         },
@@ -351,69 +351,69 @@ module.exports = {
             shortDescription: 'We specialize in transmission services to keep your vehicle shifting smoothly. From fluid changes to complete transmission rebuilds, our expert technicians ensure your transmission operates at peak performance',
             longDescription: 'We understand the importance of a well-functioning transmission in delivering a smooth and reliable driving experience. Our comprehensive transmission services cover everything from routine maintenance, like fluid changes and filter replacements, to more extensive repairs, including clutch repairs and complete transmission rebuilds. Whether you drive an automatic or manual transmission, our experienced technicians use state-of-the-art equipment to diagnose and address any issues, ensuring your transmission performs efficiently and lasts longer. Trust us to keep your vehicle running smoothly with our expert transmission services',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
-            image: 'transmission-services-repairs',
-            imageExtension: 'jpg',
+            image: 'transmission-services-repairs.png',
+            imageExtension: 'png',
             keywords: ['Brake Pad Replacement', 'Brake Rotor Resurfacing or Replacement', 'Brake Fluid Change', 'Transmission', 'Suspension Services'],
             subServices: [
                 {
                     name: 'Transmission Fluid Change',
                     description: 'Replacing old transmission fluid with new fluid to ensure smooth gear shifting and prevent overheating.',
-                    image: 'transmission-fluid-change',
-                    imageExtension: 'jpg'
+                    image: 'transmission-fluid-change.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Transmission Filter Replacement',
                     description: 'Replacing the transmission filter to maintain clean fluid flow and protect the transmission from contaminants.',
-                    image: 'transmission-filter-replacement',
-                    imageExtension: 'jpg'
+                    image: 'transmission-filter-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Transmission Diagnostics',
                     description: 'Using advanced diagnostic tools to identify transmission issues such as slipping, hard shifts, or unusual noises.',
-                    image: 'transmission-diagnostics',
-                    imageExtension: 'jpg'
+                    image: 'transmission-diagnostics.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Clutch Repair and Replacement',
                     description: 'Repairing or replacing the clutch in manual transmissions to ensure proper engagement and smooth gear changes.',
-                    image: 'clutch-repair-replacement',
-                    imageExtension: 'jpg'
+                    image: 'clutch-repair-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Transmission Rebuild',
                     description: 'Disassembling and rebuilding the transmission, replacing worn or damaged parts to restore performance.',
-                    image: 'transmission-rebuild',
-                    imageExtension: 'jpg'
+                    image: 'transmission-rebuild.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Transmission Cooling System Service',
                     description: 'Inspecting and servicing the cooling system to prevent the transmission from overheating.',
-                    image: 'transmission-cooling-service',
-                    imageExtension: 'jpg'
+                    image: 'transmission-cooling-service.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Transmission Leak Repair',
                     description: 'Identifying and repairing leaks in the transmission system to prevent fluid loss and potential damage.',
-                    image: 'transmission-leak-repair',
-                    imageExtension: 'jpg'
+                    image: 'transmission-leak-repair.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Shift Cable or Linkage Adjustment',
                     description: 'Adjusting or replacing shift cables or linkages to ensure proper gear selection and smooth operation.',
-                    image: 'shift-cable-adjustment',
-                    imageExtension: 'jpg'
+                    image: 'shift-cable-adjustment.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Torque Converter Repair or Replacement',
                     description: 'Repairing or replacing the torque converter in automatic transmissions to ensure efficient power transfer.',
-                    image: 'torque-converter-repair',
-                    imageExtension: 'jpg'
+                    image: 'torque-converter-repair.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Transmission Pan Gasket Replacement',
                     description: 'Replacing the transmission pan gasket to stop leaks and maintain proper fluid levels.',
-                    image: 'transmission-pan-gasket-replacement',
-                    imageExtension: 'jpg'
+                    image: 'transmission-pan-gasket-replacement.png',
+                    imageExtension: 'png'
                 }
             ]
         },
@@ -423,69 +423,69 @@ module.exports = {
             shortDescription: 'We provide expert suspension services to ensure a smooth and stable ride. From shock absorber replacements to full suspension overhauls, our technicians keep your vehicle’s suspension system in top condition.',
             longDescription: 'We understand the critical role a well-maintained suspension system plays in your vehicle’s handling, comfort, and safety. Our comprehensive suspension services cover everything from routine inspections and shock absorber replacements to more extensive repairs, including strut replacements and full suspension overhauls. Whether you\'re dealing with uneven tire wear, poor handling, or a rough ride, our experienced technicians use advanced tools to diagnose and resolve any suspension issues, ensuring your vehicle stays stable and comfortable on the road.',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
-            image: 'suspension-services-repairs',
-            imageExtension: 'jpg',
+            image: 'suspension-services-repairs.png',
+            imageExtension: 'png',
             keywords: ['Suspension Repair', 'Shock Absorber Replacement', 'Strut Replacement', 'Suspension Inspection', 'Vehicle Stability'],
             subServices: [
                 {
                     name: 'Shock Absorber Replacement',
                     description: 'Replacing worn or damaged shock absorbers to restore ride comfort and vehicle stability.',
-                    image: 'shock-absorber-replacement',
+                    image: 'shock-absorber-replacement.png',
                     imageExtension: 'jpg'
                 },
                 {
                     name: 'Strut Replacement',
                     description: 'Replacing worn or damaged struts to improve handling, stability, and ride quality.',
-                    image: 'strut-replacement',
-                    imageExtension: 'jpg'
+                    image: 'strut-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Suspension Inspection',
                     description: 'Conducting a thorough inspection of the suspension system to identify worn or damaged components.',
-                    image: 'suspension-inspection',
-                    imageExtension: 'jpg'
+                    image: 'suspension-inspection.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Suspension Spring Replacement',
                     description: 'Replacing worn or broken suspension springs to maintain proper ride height and vehicle stability.',
-                    image: 'suspension-spring-replacement',
-                    imageExtension: 'jpg'
+                    image: 'suspension-spring-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Wheel Alignment',
                     description: 'Adjusting the angles of the wheels to ensure proper alignment, improving tire wear and vehicle handling.',
-                    image: 'wheel-alignment',
-                    imageExtension: 'jpg'
+                    image: 'wheel-alignment.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Ball Joint Replacement',
                     description: 'Replacing worn or damaged ball joints to restore smooth steering and prevent suspension failure.',
-                    image: 'ball-joint-replacement',
-                    imageExtension: 'jpg'
+                    image: 'ball-joint-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Control Arm Replacement',
                     description: 'Replacing worn or damaged control arms to improve vehicle stability and handling.',
-                    image: 'control-arm-replacement',
-                    imageExtension: 'jpg'
+                    image: 'control-arm-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Stabilizer Bar Repair',
                     description: 'Repairing or replacing the stabilizer bar to reduce body roll and improve vehicle handling during turns.',
-                    image: 'stabilizer-bar-repair',
-                    imageExtension: 'jpg'
+                    image: 'stabilizer-bar-repair.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Bushings Replacement',
                     description: 'Replacing worn suspension bushings to reduce noise and vibration and improve ride comfort.',
-                    image: 'bushings-replacement',
-                    imageExtension: 'jpg'
+                    image: 'bushings-replacement.png',
+                    imageExtension: 'png'
                 },
                 {
                     name: 'Suspension Overhaul',
                     description: 'Performing a full suspension system overhaul, replacing all critical components to restore optimal performance.',
-                    image: 'suspension-overhaul',
-                    imageExtension: 'jpg'
+                    image: 'suspension-overhaul.png',
+                    imageExtension: 'png'
                 }
             ]
         }
