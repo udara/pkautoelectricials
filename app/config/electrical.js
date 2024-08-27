@@ -93,25 +93,12 @@ module.exports =  {
                     ]
                 },
                 {
-                    name: "Caravan Charging System",
-                    slug: "caravan-charging-system",
-                    shortDescription: "Keep your caravan’s battery fully charged with our reliable charging systems.",
-                    description: "Our Caravan Charging System service provides efficient charging solutions to keep your caravan's battery in top condition. Whether you’re parked or on the move, our systems ensure your battery is charged and ready, providing you with the power you need for all your caravan's electrical devices.",
-                    image: "caravan-charging-system",
-                    imageExtension: "jpg",
-                    keywords: [
-                        "Caravan Charging",
-                        "Battery Charging System",
-                        "Caravan Electrical Services"
-                    ]
-                },
-                {
                     name: "Electric Brakes Repair and Installation",
                     slug: "electric-brakes-repair-installation",
                     shortDescription: "Expert repair and installation of electric brakes for enhanced safety and control.",
                     description: "Our Electric Brakes Repair and Installation service ensures your vehicle's braking system is safe, responsive, and meets all regulatory standards. Whether you're looking to install new electric brakes or repair existing ones, our technicians provide professional, reliable service to keep you safe on the road.",
-                    image: "electric-brakes-repair-installation",
-                    imageExtension: "jpg",
+                    image: "electric-brakes-repair-installation.png",
+                    imageExtension: "png",
                     keywords: [
                         "Electric Brakes",
                         "Brake Repair",
@@ -124,8 +111,8 @@ module.exports =  {
                     slug: "boat-trailer-lighting-and-electric-brake",
                     shortDescription: "Ensure your boat trailer is road-ready with our lighting and brake services.",
                     description: "Our Boat Trailer Lighting and Electric Brake/Breakaway Units service provides complete electrical solutions for boat trailers. We handle everything from wiring and installing lights to setting up electric brakes and breakaway units, ensuring your trailer is safe and compliant with road regulations.",
-                    image: "boat-trailer-lighting-and-electric-brake",
-                    imageExtension: "jpg",
+                    image: "boat-trailer-lighting-and-electric-brake.png",
+                    imageExtension: "png",
                     keywords: [
                         "Boat Trailer Lighting",
                         "Electric Brake Setup",
@@ -138,8 +125,8 @@ module.exports =  {
                     slug: "anderson-plug-wiring",
                     shortDescription: "Professional Anderson plug wiring for reliable power connections in your vehicle.",
                     description: "Our Anderson Plug Wiring service offers expert installation of Anderson plugs, providing a reliable power connection for your vehicle’s electrical needs. Whether you need it for towing, charging, or connecting auxiliary devices, our service ensures safe and efficient wiring.",
-                    image: "anderson-plug-wiring",
-                    imageExtension: "jpg",
+                    image: "anderson-plug-wiring.png",
+                    imageExtension: "png",
                     keywords: [
                         "Anderson Plug Installation",
                         "Vehicle Wiring",
@@ -151,8 +138,8 @@ module.exports =  {
                     slug: "12-pin-trailer-plug-wiring",
                     shortDescription: "Ensure all your trailer’s electrical connections are secure with our 12-pin plug wiring service.",
                     description: "Our 12-pin Trailer Plug Wiring service provides expert wiring solutions to ensure your trailer’s electrical systems are fully functional and secure. Perfect for trailers with complex electrical needs, our service ensures every pin is correctly wired for optimal performance.",
-                    image: "12-pin-trailer-plug-wiring",
-                    imageExtension: "jpg",
+                    image: "12-pin-trailer-plug-wiring.png",
+                    imageExtension: "png",
                     keywords: [
                         "Trailer Plug Wiring",
                         "12-pin Wiring",
@@ -164,8 +151,8 @@ module.exports =  {
                     slug: "solar-power-systems",
                     shortDescription: "Efficient solar power systems for sustainable energy solutions in your vehicle.",
                     description: "Our Solar Power Systems service offers the installation and setup of high-efficiency solar panels and related components to provide sustainable energy solutions for your vehicle. Whether you're looking to power your caravan, RV, or other vehicles, our solar systems ensure you have a reliable and eco-friendly energy source, reducing dependency on traditional power sources and lowering your carbon footprint.",
-                    image: "solar-power-systems",
-                    imageExtension: "jpg",
+                    image: "solar-power-systems.png",
+                    imageExtension: "png",
                     keywords: [
                         "Solar Power Systems",
                         "Vehicle Solar Panels",
@@ -177,12 +164,12 @@ module.exports =  {
             ]
         },
         {
-            name: "Lighting",
-            slug: "lighting",
+            name: "LED Driving Lights / Mining Light Bars / Emergency Lighting ",
+            slug: "led-driving-mining-emergency-lights",
             shortDescription: "Expert lighting solutions for all types of vehicles, enhancing visibility and safety.",
             longDescription: "Our Lighting service offers comprehensive solutions for upgrading, repairing, and installing vehicle lighting systems. Whether you need brighter headlights, more efficient LED lights, or specialized lighting for off-road or commercial vehicles, our expert technicians provide high-quality installations to improve your vehicle's visibility and safety on the road.",
-            image: "lighting",
-            imageExtension: "jpg",
+            image: "led-driving-mining-emergency-lights.png",
+            imageExtension: "png",
             keywords: [
                 "Vehicle Lighting",
                 "Headlight Installation",
@@ -196,8 +183,8 @@ module.exports =  {
                     slug: 'driving-lights',
                     shortDescription: 'High-performance driving lights for enhanced visibility and safety on the road.',
                     description: 'Our Driving Lights service provides the installation of high-performance lights designed to improve visibility during night driving or in poor weather conditions. These lights offer focused illumination, ensuring you have a clear view of the road ahead, making your driving experience safer and more comfortable.',
-                    image: 'driving-lights',
-                    imageExtension: 'jpg',
+                    image: 'driving-lights.png',
+                    imageExtension: 'png',
                     keywords: [
                         'Driving Lights',
                         'Vehicle Lighting',
@@ -209,8 +196,8 @@ module.exports =  {
                     slug: 'mining-light-bars',
                     shortDescription: 'Durable mining light bars designed to withstand harsh conditions while providing optimal illumination.',
                     description: 'Our Mining Light Bars service offers the installation of robust and durable light bars specifically designed for mining and industrial applications. These light bars provide powerful, wide-area illumination, making them ideal for use in challenging environments where reliable lighting is crucial.',
-                    image: 'mining-light-bars',
-                    imageExtension: 'jpg',
+                    image: 'mining-light-bars.png',
+                    imageExtension: 'png',
                     keywords: [
                         'Mining Light Bars',
                         'Industrial Lighting',
@@ -222,8 +209,8 @@ module.exports =  {
                     slug: 'emergency-lighting',
                     shortDescription: 'Reliable emergency lighting systems for vehicles, ensuring safety in critical situations.',
                     description: 'Our Emergency Lighting service provides the installation of specialized lighting systems designed for emergency vehicles or situations. These lights are essential for ensuring visibility and safety during emergencies, whether for police, fire, rescue, or other critical services.',
-                    image: 'emergency-lighting',
-                    imageExtension: 'jpg',
+                    image: 'emergency-lighting.png',
+                    imageExtension: 'png',
                     keywords: [
                         'Emergency Lighting',
                         'Safety Lights',
@@ -237,8 +224,8 @@ module.exports =  {
             slug: "reversing-sensors-cameras-installation",
             shortDescription: "Enhance safety with our professional installation of reversing sensors and cameras.",
             longDescription: "Our Reversing Sensors and Cameras Installation service provides expert installation of advanced parking aids, including reversing sensors and cameras. These systems help you detect obstacles behind your vehicle, making parking and reversing safer and easier. Whether for personal cars, commercial vehicles, or heavy-duty trucks, our installation ensures seamless integration with your vehicle's existing systems.",
-            image: "reversing-sensors-and-cameras-installation",
-            imageExtension: "jpg",
+            image: "reversing-sensors-and-cameras-installation.png",
+            imageExtension: "png",
             keywords: [
                 "Reversing Sensors",
                 "Backup Cameras",

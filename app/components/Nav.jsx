@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Image from 'next/image'
 import Link from 'next/link'
 import BurgerMenu from "./BurgerMenu";
+import config from '../config'
 
 const Nav = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -11,9 +12,22 @@ const Nav = () => {
     };
     return (
         <>
-            <nav className="bg-oceanBlue">
+            <nav
+                className="bg-charcoal dark:bg-charcoal fixed w-full z-20 top-0 start-0 dark:border-gray-600">
+                <div className={`bg-crimsonFlame text-xl justify-center flex items-center gap-3 py-2 text-white h-10 text-center`}>
+                    <Image
+                        src="/images/location-nav.png"
+                        alt="PK Auto care"
+                        placeholder="blur"
+                        width={25}
+                        height={25}
+                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
+                        priority
+                    />
+                    {config.address}
+                </div>
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <div className={"px-4 py-3 bg-white rounded-xl"}>
+                    <div className={"px-4 py-3 bg-charcoal rounded-xl"}>
                         <Link href={'/'}>
                             <Image
                                 src="/images/logo.png"
@@ -45,15 +59,29 @@ const Nav = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href={'/faqs'}
+                                <Link href={'/#about'}
+                                      className="block py-3 md:py-0 text-white font-roboto px-3 rounded md:p-0">
+                                    About Us
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={'/#faqs'}
                                       className="block py-3 md:py-0 text-white font-roboto px-3 rounded md:p-0">
                                     FAQs
                                 </Link>
                             </li>
                             <li>
-                                <Link href={'/contact'}
-                                      className="block py-3 md:py-0 text-white font-roboto px-3 rounded md:p-0">
-                                    Contact
+                                <Link href={`tel:${config.telephone}`}
+                                      className="flex gap-3 py-3 md:py-0 text-white font-roboto px-3 rounded md:p-0">
+                                    <Image
+                                        src="/images/telephone-nav.svg"
+                                        alt="PK Auto care"
+                                        placeholder="blur"
+                                        width={25}
+                                        height={25}
+                                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
+                                        priority
+                                    />{config.telephone}
                                 </Link>
                             </li>
 
@@ -61,6 +89,7 @@ const Nav = () => {
                     </div>
                 </div>
             </nav>
+            <div className={`h-[150px]`}></div>
         </>
     )
 }

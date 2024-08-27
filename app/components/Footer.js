@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import SiteConfig from '../config/index'
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-50 border-t border-gray-100 mt-10 dark:border-0 dark:bg-gray-900">
+        <footer className="bg-gray-50 border-t border-gray-100 mt-10 dark:border-0 dark:bg-charcoal">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="lg:flex md:justify-between">
                     <div className="mb-9 mt-3 lg:mb-0 lg:mt-0">
@@ -92,7 +93,7 @@ const Footer = () => {
                                             height={25}
                                             blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
                                             priority
-                                        />0412 241 341
+                                        />{SiteConfig.telephone}
                                     </Link>
                                 </li>
                                 <li className="flex gap-3 mb-4">
@@ -105,7 +106,7 @@ const Footer = () => {
                                         blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
                                         priority
                                     />
-                                    <address>670 Port Rd, Beverley SA 5009</address>
+                                    <address>{SiteConfig.address_footer}</address>
                                 </li>
                                 <li className="flex gap-3 mb-4">
                                     <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -125,8 +126,7 @@ const Footer = () => {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
                 <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a
-              href="https://flowbite.com/" className="hover:underline">PK Auto Care</a>. All Rights Reserved.
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 PK Auto Care. All Rights Reserved.
           </span>
                 </div>
             </div>

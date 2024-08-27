@@ -1,11 +1,15 @@
-import { Racing_Sans_One, Roboto } from 'next/font/google';
+import {Racing_Sans_One, Roboto} from 'next/font/google';
 import "../globals.css";
 import config from '../config'
 import Image from "next/image";
 import Footer from "../components/Footer";
 
-const racing = Racing_Sans_One({ subsets: ['latin'], variable: '--font-racing-sans-one', weight: ['400'] });
-const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto', weight: ['100','300','400', '500', '700', '900'] });
+const racing = Racing_Sans_One({subsets: ['latin'], variable: '--font-racing-sans-one', weight: ['400']});
+const roboto = Roboto({
+    subsets: ['latin'],
+    variable: '--font-roboto',
+    weight: ['100', '300', '400', '500', '700', '900']
+});
 
 export default function RootLayout({children}) {
     return (
@@ -39,7 +43,7 @@ export default function RootLayout({children}) {
                     <div className={`text-xl text-charcoal mt-10 mb-3 font-racing text-header `}>
                         Visit us
                     </div>
-                    <p className={`text-xl flex gap-3 font-normal text-para mb-3`}>
+                    <div className={`flex items-start`}>
                         <Image
                             src="/images/location.png"
                             alt="PK Auto care"
@@ -50,7 +54,11 @@ export default function RootLayout({children}) {
                             blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
                             priority
                         />
-                        {config.address}</p>
+                        <p className={`text-xl ml-3 font-normal text-para mb-3`}>
+                            {config.address}
+                        </p>
+                    </div>
+
                     <Image
                         src="/images/RAA-Approved.png"
                         alt="RAA-Approved Repairer - Mechanical, Electrical and Air Conditioning"

@@ -20,8 +20,8 @@ module.exports = {
         header: '#626262',
         para: '#999999',
         white: '#ffffff',
-        black: '#000000'
-
+        black: '#000000',
+        raaYellow:'#f9e536'
       },
       fontFamily: {
         racing: ['var(--font-racing-sans-one)', 'sans-serif'],

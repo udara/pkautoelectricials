@@ -9,7 +9,8 @@ module.exports = {
     name: `PK Auto care`,
     telephone: `0412 241 341`,
     email: `pk.autoelectrical@gmail.com`,
-    address: '670 Port Rd, Beverley SA 5009',
+    address: '670 Port Rd, Beverley, SA 5009',
+    address_footer: '670 Port Rd, Beverley, Adelaide, SA 5009',
     services: [
         mechanical,
         electrical,
