@@ -7,6 +7,13 @@ export const metadata = {
     title: "PK Auto Care - Mechanical, Electrical and Air Conditioning Services in Adelaide"
 };
 
+// This function generates the static paths for each service slug
+export async function generateStaticParams() {
+    return config.services.map(service => ({
+        slug: service.slug,
+    }));
+}
+
 const Services = ({ params }) => {
     const service = config.services.find((service) => service.slug === params.slug);
 

@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const AboutUs = () => {
     return (
-        <div id='about' className={`lg:flex items-start max-w-screen-xl mx-auto mt-12 gap-12 p-6`}>
+        <div id='about' className={`lg:flex  items-start max-w-screen-xl mx-auto mt-12 gap-12 p-6`}>
             <div className={`w-full lg:w-1/2`}>
                 <Image
                     src="/images/services/about-pk-auto-care.png"
                     alt="PK Auto care"
                     placeholder="blur"
-                    className={"w-full opacity-80"}
+                    className={"w-full opacity-80 rounded-xl"}
                     width={400}
                     height={400}
                     blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
@@ -19,7 +19,7 @@ const AboutUs = () => {
                 <h2 className={`text-3xl max-w-[600px] font-racing text-header mb-6`}>Serving Adelaide Since
                     1997</h2>
                 <p className={`text-para text-xl lg:text-lg `}>
-                    For over two decades, PK Auto Care has been Adelaide's trusted choice for automotive services.
+                    For over two decades, PK Auto Care has been Adelaide&apos;s trusted choice for automotive services.
                     Our expert team is committed to delivering high-quality care and ensuring every customer leaves
                     satisfied. Here’s why our customers choose us:
                 </p>

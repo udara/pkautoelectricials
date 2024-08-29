@@ -36,15 +36,15 @@ const Footer = () => {
                                     <Link href="/auto-care-adelaide/services/electrical/truck-trailer-auto-electrical-services#electric-brakes-repair-installation" className="hover:underline">Engine Repair and Services</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/services/specialty-services" className="hover:underline">Specialty
+                                    <Link href="/auto-care-adelaide/services/specialty-services" className="hover:underline">Specialty
                                         Services</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/services/fleet-management" className="hover:underline">Fleet
+                                    <Link href="/auto-care-adelaide/services/fleet-management" className="hover:underline">Fleet
                                         Management</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/services/battery" className="hover:underline">Battery Care &
+                                    <Link href="/auto-care-adelaide/services/battery" className="hover:underline">Battery Care &
                                         Supply</Link>
                                 </li>
                             </ul>
@@ -54,27 +54,27 @@ const Footer = () => {
                             <h2 className="mb-6 text-sm font-semibold text-header uppercase dark:text-white">Services</h2>
                             <ul className="text-para font-light">
                                 <li className={`mb-2`}>
-                                    <Link href="/services/mechanical" className="hover:underline">Mechanical
+                                    <Link href="/auto-care-adelaide/services/mechanical" className="hover:underline">Mechanical
                                         Services</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/services/electrical" className="hover:underline">Auto Electrical
+                                    <Link href="/auto-care-adelaide/services/electrical" className="hover:underline">Auto Electrical
                                         Services</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/services/air-conditioning" className="hover:underline">Auto HVAC
+                                    <Link href="/auto-care-adelaide/services/air-conditioning" className="hover:underline">Auto HVAC
                                         Engineering</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/services/specialty-services" className="hover:underline">Specialty
+                                    <Link href="/auto-care-adelaide/services/specialty-services" className="hover:underline">Specialty
                                         Services</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/services/fleet-management" className="hover:underline">Fleet
+                                    <Link href="/auto-care-adelaide/services/fleet-management" className="hover:underline">Fleet
                                         Management</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/services/battery" className="hover:underline">Battery Care &
+                                    <Link href="/auto-care-adelaide/services/battery" className="hover:underline">Battery Care &
                                         Supply</Link>
                                 </li>
                             </ul>

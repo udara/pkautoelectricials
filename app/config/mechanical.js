@@ -3,17 +3,17 @@ module.exports = {
     category: 'Mechanical',
     categoryDisplayName: 'Mechanical',
     slug: 'mechanical',
-    description: 'Mechanical shortDescription',
+    description: 'Our mechanical services offer a comprehensive approach to vehicle maintenance and repair. We handle everything from routine maintenance tasks, like oil changes and tire rotations, to more complex repairs involving your engine, brakes, and suspension systems. Our experienced technicians are equipped with the latest diagnostic tools to accurately identify and resolve issues, ensuring your vehicle remains in peak condition. Whether it’s preventative maintenance or addressing specific problems, we’re committed to delivering reliable, high-quality service that keeps your vehicle safe and running smoothly on the road.',
     image: 'mechanical',
     typeOfServices: [
         {
             name: 'Mechanical Repairs/Maintenance',
             slug: 'mechanical-repairs-maintenance',
-            shortDescription: 'We offer expert mechanical repairs to keep your vehicle in top condition. Whether it\'s engine work, brake repairs, or suspension adjustments, our skilled technicians handle all your vehicle’s mechanical needs with precision and care',
-            longDescription: 'We provide comprehensive mechanical repair services to ensure your vehicle stays reliable and safe on the road. Our expert technicians are equipped to handle a wide range of mechanical issues, from engine repairs and brake services to suspension adjustments and drivetrain maintenance. Using the latest diagnostic tools and high-quality parts, we identify and fix problems efficiently, minimizing downtime and preventing future issues. Trust us to deliver top-notch mechanical repairs that keep your vehicle running smoothly and extend its lifespan',
+            shortDescription: 'Our expert mechanical repairs are designed to keep your vehicle in top condition. From engine work and brake repairs to suspension adjustments, our skilled technicians handle all your vehicle’s mechanical needs with precision and care.',
+            longDescription: 'We provide comprehensive mechanical repair services to ensure your vehicle stays reliable and safe on the road. Our experienced technicians are equipped to handle a wide range of mechanical issues, from engine repairs and brake services to suspension adjustments and drivetrain maintenance. Using the latest diagnostic tools and high-quality parts, we quickly identify and fix problems, minimizing downtime and preventing future issues. Trust us to deliver top-notch mechanical repairs that keep your vehicle running smoothly and extend its lifespan, ensuring you stay safe and comfortable on every journey.',
             image: 'mechanical-repairs.jpg',
             imageExtension: 'jpg',
-            keywords: ['Mechanical Repairs'],
+            keywords: ['Mechanical Repairs', 'Engine Repairs', 'Brake Services', 'Suspension Maintenance'],
             subServices: [
                 {
                     name: 'Engine Diagnostics and Management',
@@ -25,7 +25,7 @@ module.exports = {
                 {
                     name: 'Oil Change and Filter Replacement',
                     description: 'Routine oil changes and filter replacements to keep your engine well-lubricated and running efficiently.',
-                    image: 'oil_change_filter_replacement.png',
+                    image: 'oil_change_filter_replacement.jpg',
                     imageExtension: 'jpg',
                     vehicles: ['cars', 'motor bikes', 'light trucks']
                 },
@@ -77,10 +77,10 @@ module.exports = {
             name: 'Log Book Servicing',
             slug: 'log-book-servicing',
             shortDescription: 'We provide comprehensive log book servicing to keep your vehicle in top condition and maintain your warranty. Our expert technicians follow the manufacturer’s guidelines to ensure your vehicle receives the care it needs.',
-            longDescription: 'Our log book servicing is designed to meet your vehicle manufacturer’s specifications, ensuring your car remains in peak condition while preserving your warranty. Our experienced technicians carry out all necessary inspections, adjustments, and replacements as outlined in your log book, using high-quality parts and following the latest industry standards. Whether it’s your first service or a major interval service, we provide the care and attention your vehicle needs to perform reliably and efficiently.',
-            image: 'log_book_servicing.jpg',
+            longDescription: 'Our log book servicing is designed to meet your vehicle manufacturer’s specifications, ensuring your car remains in peak condition while preserving your warranty. Our experienced technicians carry out all necessary inspections, adjustments, and replacements as outlined in your log book, using high-quality parts and following the latest industry standards. Whether it’s your first service or a major interval service, we provide the care and attention your vehicle needs to perform reliably and efficiently, helping you avoid costly repairs and maintain its value over time.',
+            image: 'log_book_servicing.png',
             imageExtension: 'png',
-            keywords: ['Log Book Servicing'],
+            keywords: ['Log Book Servicing', 'Vehicle Maintenance', 'Scheduled Services', 'Warranty Preservation'],
             subServices: [
                 {
                     name: 'Scheduled Maintenance',
@@ -131,35 +131,33 @@ module.exports = {
                     imageExtension: 'png'
                 }
             ],
-            image: 'log-book-servicing',
-            imageExtension: 'jpg',
             keywords: ['Log Book Servicing', 'Scheduled Maintenance', 'Oil Change', 'Brake Inspection', 'Tyre Rotation', 'Battery Check']
         },
         {
             name: 'Brakes Services/Repairs',
-            slug: 'breaks-repairs',
+            slug: 'brakes-repairs',
             shortDescription: 'Our expert technicians provide comprehensive brake services, including pad replacements, rotor resurfacing, fluid changes, and system inspections. We ensure your brakes perform at their best, giving you peace of mind on the road.',
-            longDescription: 'Your safety on the road is our top priority. We offer comprehensive brake services to keep your vehicle\'s braking system in optimal condition. Whether it’s replacing brake pads, resurfacing rotors, changing brake fluid, or performing a full system inspection, our expert technicians are equipped to handle all your brake needs. Trust us to ensure your brakes deliver reliable performance, giving you the confidence to drive safely in any condition',
+            longDescription: 'Your safety on the road is our top priority. We offer comprehensive brake services to keep your vehicle\'s braking system in optimal condition. Whether it’s replacing brake pads, resurfacing rotors, changing brake fluid, or performing a full system inspection, our expert technicians are equipped to handle all your brake needs. Trust us to ensure your brakes deliver reliable performance, giving you the confidence to drive safely in any condition. With our high-quality service, you can be assured that your vehicle’s brakes will function effectively, minimizing the risk of accidents and improving overall vehicle safety.',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
             image: 'brakes-service-repairs.png',
             imageExtension: 'png',
-            keywords: ['Brake Pad Replacement', 'Brake Rotor Resurfacing or Replacement', 'Brake Fluid Change', 'Transmission', 'Suspension Services'],
+            keywords: ['Brake Pad Replacement', 'Brake Rotor Resurfacing', 'Brake Fluid Change', 'Brake System Inspection', 'Brake Safety'],
             subServices: [
                 {
                     name: 'Brake Pad Replacement',
-                    description: 'Replacing worn-out brake pads to maintain effective braking and prevent damage to the rotors',
+                    description: 'Replacing worn-out brake pads to maintain effective braking and prevent damage to the rotors.',
                     image: 'brake-pad-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Brake Rotor Resurfacing or Replacement',
-                    description: 'Resurfacing or replacing the brake rotors if they are warped, grooved, or too thin to ensure smooth braking',
+                    description: 'Resurfacing or replacing the brake rotors if they are warped, grooved, or too thin to ensure smooth braking.',
                     image: 'brake-rotor-resurfacing-or-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Brake Fluid Change',
-                    description: 'Flushing and replacing the brake fluid to maintain proper hydraulic pressure in the brake system and prevent moisture buildup that can lead to corrosion and brake failure',
+                    description: 'Flushing and replacing the brake fluid to maintain proper hydraulic pressure in the brake system and prevent moisture buildup that can lead to corrosion and brake failure.',
                     image: 'brake-fluid-change.png',
                     imageExtension: 'png'
                 },
@@ -177,13 +175,13 @@ module.exports = {
                 },
                 {
                     name: 'Brake Shoe Replacement',
-                    description: 'Replacing the brake shoes in drum brake systems to maintain proper braking force',
+                    description: 'Replacing the brake shoes in drum brake systems to maintain proper braking force.',
                     image: 'brake-shoe-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Brake Drum Resurfacing or Replacement',
-                    description: 'Resurfacing or replacing brake drums in vehicles equipped with drum brakes if they are out of round or excessively worn',
+                    description: 'Resurfacing or replacing brake drums in vehicles equipped with drum brakes if they are out of round or excessively worn.',
                     image: 'brake-drum-resurfacing-or-replacement.png',
                     imageExtension: 'png'
                 }
@@ -192,58 +190,58 @@ module.exports = {
         {
             name: 'Clutch Services/Repairs',
             slug: 'clutch-repairs',
-            shortDescription: 'We ensure your vehicle’s clutch system performs flawlessly. Our expert technicians handle everything from clutch replacements to adjustments and inspections, keeping you on the road with confidence',
-            longDescription: 'We specialize in keeping your vehicle’s clutch system running smoothly. Our expert technicians handle everything from clutch replacements and adjustments to hydraulic system services and flywheel resurfacing. If you\'re experiencing slipping, hard shifts, or unusual noises, we provide thorough inspections and repairs to ensure your clutch operates flawlessly. Trust us to maintain your vehicle’s performance and reliability with our comprehensive clutch services',
+            shortDescription: 'We ensure your vehicle’s clutch system performs flawlessly. Our expert technicians handle everything from clutch replacements to adjustments and inspections, keeping you on the road with confidence.',
+            longDescription: 'We specialize in keeping your vehicle’s clutch system running smoothly. Our expert technicians handle everything from clutch replacements and adjustments to hydraulic system services and flywheel resurfacing. If you\'re experiencing slipping, hard shifts, or unusual noises, we provide thorough inspections and repairs to ensure your clutch operates flawlessly. Trust us to maintain your vehicle’s performance and reliability with our comprehensive clutch services. We use only high-quality parts and the latest techniques to ensure your clutch system is restored to optimal condition, providing you with smooth gear changes and a safe driving experience.',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
             image: 'clutch-services-repairs.png',
             imageExtension: 'png',
-            keywords: ['Clutch Replacement', 'Clutch Adjustment', 'Clutch Hydraulic System Service', 'Clutch Plate and Flywheel Resurfacing', 'Clutch Cable Replacement', 'Clutch Bearing and Bushing Replacement', 'Transmission and Drivetrain Inspection', 'Flywheel Replacement'],
+            keywords: ['Clutch Replacement', 'Clutch Adjustment', 'Clutch Hydraulic System', 'Flywheel Resurfacing', 'Clutch Cable Replacement'],
             subServices: [
                 {
                     name: 'Clutch Replacement',
-                    description: 'Replacing the clutch assembly components, such as the clutch disc, pressure plate, and release bearing, when they are worn out or no longer provide effective power transfer',
+                    description: 'Replacing the clutch assembly components, such as the clutch disc, pressure plate, and release bearing, when they are worn out or no longer provide effective power transfer.',
                     image: 'clutch-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Clutch Adjustment',
-                    description: 'Adjusting the clutch pedal or linkage to ensure proper engagement and disengagement, preventing premature wear and shifting difficulties',
+                    description: 'Adjusting the clutch pedal or linkage to ensure proper engagement and disengagement, preventing premature wear and shifting difficulties.',
                     image: 'clutch-adjustment.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Clutch Hydraulic System Service',
-                    description: 'Inspecting and servicing the clutch hydraulic system, including the master and slave cylinders, when the hydraulic fluid is contaminated or the system develops leaks',
+                    description: 'Inspecting and servicing the clutch hydraulic system, including the master and slave cylinders, when the hydraulic fluid is contaminated or the system develops leaks.',
                     image: 'clutch-hydraulic-system-service.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Clutch Plate and Flywheel Resurfacing',
-                    description: 'Resurfacing the flywheel to ensure smooth contact with the clutch plate, preventing slipping and ensuring efficient power transfer',
+                    description: 'Resurfacing the flywheel to ensure smooth contact with the clutch plate, preventing slipping and ensuring efficient power transfer.',
                     image: 'clutch-plate-and-flywheel-resurfacing.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Clutch Cable Replacement',
-                    description: 'Replacing a stretched, frayed, or broken clutch cable to restore smooth gear shifts and proper clutch operation',
+                    description: 'Replacing a stretched, frayed, or broken clutch cable to restore smooth gear shifts and proper clutch operation.',
                     image: 'clutch-cable-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Clutch Bearing and Bushing Replacement',
-                    description: 'Replacing worn bearings and bushings to ensure smooth clutch movement and prevent further wear on other components',
+                    description: 'Replacing worn bearings and bushings to ensure smooth clutch movement and prevent further wear on other components.',
                     image: 'clutch-bearing-and-bushing-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Transmission and Drivetrain Inspection',
-                    description: 'A comprehensive check of transmission and drivetrain components to identify wear, leaks, or damage, ensuring the system\'s overall health',
+                    description: 'A comprehensive check of transmission and drivetrain components to identify wear, leaks, or damage, ensuring the system\'s overall health.',
                     image: 'transmission-and-drivetrain-inspection.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Flywheel Replacement',
-                    description: 'Replacing a damaged flywheel to prevent vibrations and ensure effective power transfer and smooth engine operation',
+                    description: 'Replacing a damaged flywheel to prevent vibrations and ensure effective power transfer and smooth engine operation.',
                     image: 'flywheel-replacement.png',
                     imageExtension: 'png'
                 }
@@ -252,28 +250,28 @@ module.exports = {
         {
             name: 'Engine Repair and Services',
             slug: 'engine-repairs',
-            shortDescription: 'We offer comprehensive engine repair and maintenance services to keep your vehicle running at its best. From diagnostics and oil changes to full engine rebuilds, our expert technicians ensure your engine operates smoothly and reliably',
-            longDescription: 'We specialize in providing top-quality engine repair and maintenance services to keep your vehicle performing at its peak. Our experienced technicians handle everything from routine oil changes and spark plug replacements to complex diagnostics and full engine rebuilds. Whether you\'re dealing with a minor issue or need a major repair, we use the latest tools and techniques to ensure your engine runs efficiently and reliably. Trust us to keep your engine in top condition, extending the life of your vehicle and ensuring a smooth, safe driving experience',
+            shortDescription: 'We offer comprehensive engine repair and maintenance services to keep your vehicle running at its best. From diagnostics and oil changes to full engine rebuilds, our expert technicians ensure your engine operates smoothly and reliably.',
+            longDescription: 'We specialize in providing top-quality engine repair and maintenance services to keep your vehicle performing at its peak. Our experienced technicians handle everything from routine oil changes and spark plug replacements to complex diagnostics and full engine rebuilds. Whether you\'re dealing with a minor issue or need a major repair, we use the latest tools and techniques to ensure your engine runs efficiently and reliably. Trust us to keep your engine in top condition, extending the life of your vehicle and ensuring a smooth, safe driving experience. Our commitment to excellence means that we only use high-quality parts and follow the best practices in the industry to ensure your engine gets the care it deserves.',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
             image: 'engine-repair-and-services.png',
             imageExtension: 'png',
-            keywords: ['Engine Diagnostics', 'Oil Change and Filter Replacement', 'Timing Belt/Chain Replacement', 'Spark Plug Replacement', 'Engine Tune-Up', 'Head Gasket Replacement', 'Cooling System Service', 'Fuel System Repair', 'Engine Overhaul/Rebuild', 'Belt and Hose Replacement', 'Exhaust System Repair', 'Engine Mount Replacement', 'Air Intake System Service', 'Emission System Repairs'],
+            keywords: ['Engine Diagnostics', 'Oil Change', 'Timing Belt Replacement', 'Spark Plug Replacement', 'Engine Tune-Up', 'Engine Overhaul', 'Cooling System Service', 'Fuel System Repair'],
             subServices: [
                 {
                     name: 'Engine Diagnostics',
-                    description: 'We use specialized tools to identify engine issues through fault codes, performance tests, and visual inspections',
+                    description: 'We use specialized tools to identify engine issues through fault codes, performance tests, and visual inspections.',
                     image: 'engine-diagnostics.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Oil Change and Filter Replacement',
-                    description: 'Draining old engine oil, replacing it with fresh oil, and installing a new oil filter',
+                    description: 'Draining old engine oil, replacing it with fresh oil, and installing a new oil filter.',
                     image: 'oil-change-and-filter-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Timing Belt/Chain Replacement',
-                    description: 'Replacing the timing belt or chain that synchronizes the engine\'s camshaft and crankshaft, ensuring proper valve timing',
+                    description: 'Replacing the timing belt or chain that synchronizes the engine\'s camshaft and crankshaft, ensuring proper valve timing.',
                     image: 'timing-belt-chain-replacement.png',
                     imageExtension: 'png'
                 },
@@ -285,31 +283,31 @@ module.exports = {
                 },
                 {
                     name: 'Engine Tune-Up',
-                    description: 'A series of maintenance tasks, including spark plug replacement, air filter replacement, and adjusting engine timing and idle speed',
+                    description: 'A series of maintenance tasks, including spark plug replacement, air filter replacement, and adjusting engine timing and idle speed.',
                     image: 'engine-tune-up.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Head Gasket Replacement',
-                    description: 'Replacing the head gasket, which seals the engine block and cylinder head, preventing leaks of coolant, oil, and combustion gases',
+                    description: 'Replacing the head gasket, which seals the engine block and cylinder head, preventing leaks of coolant, oil, and combustion gases.',
                     image: 'head-gasket-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Cooling System Service',
-                    description: 'Flushing and refilling the coolant, inspecting and replacing hoses, and checking the radiator and water pump',
+                    description: 'Flushing and refilling the coolant, inspecting and replacing hoses, and checking the radiator and water pump.',
                     image: 'cooling-system-service.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Fuel System Repair',
-                    description: 'Cleaning or replacing fuel injectors, inspecting the fuel pump, and replacing fuel filters',
+                    description: 'Cleaning or replacing fuel injectors, inspecting the fuel pump, and replacing fuel filters.',
                     image: 'fuel-system-repair.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Engine Overhaul/Rebuild',
-                    description: 'Disassembling the engine, inspecting and replacing worn or damaged parts, and reassembling the engine',
+                    description: 'Disassembling the engine, inspecting and replacing worn or damaged parts, and reassembling the engine.',
                     image: 'engine-overhaul-rebuild.png',
                     imageExtension: 'png'
                 },
@@ -321,25 +319,25 @@ module.exports = {
                 },
                 {
                     name: 'Exhaust System Repair',
-                    description: 'Inspecting and repairing or replacing components of the exhaust system, including the muffler, catalytic converter, and exhaust pipes',
+                    description: 'Inspecting and repairing or replacing components of the exhaust system, including the muffler, catalytic converter, and exhaust pipes.',
                     image: 'exhaust-system-repair.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Engine Mount Replacement',
-                    description: 'Replacing the mounts that secure the engine to the vehicle’s frame',
+                    description: 'Replacing the mounts that secure the engine to the vehicle’s frame.',
                     image: 'engine-mount-replacement.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Air Intake System Service',
-                    description: 'Cleaning or replacing air filters, and inspecting the air intake manifold and sensors',
+                    description: 'Cleaning or replacing air filters, and inspecting the air intake manifold and sensors.',
                     image: 'air-intake-system-service.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Emission System Repairs',
-                    description: 'Inspecting and repairing components like the oxygen sensors, EGR valve, and catalytic converter that control emissions',
+                    description: 'Inspecting and repairing components like the oxygen sensors, EGR valve, and catalytic converter that control emissions.',
                     image: 'emission-system-repairs.png',
                     imageExtension: 'png'
                 }
@@ -348,12 +346,12 @@ module.exports = {
         {
             name: 'Transmission Services/Repairs',
             slug: 'transmission-repairs',
-            shortDescription: 'We specialize in transmission services to keep your vehicle shifting smoothly. From fluid changes to complete transmission rebuilds, our expert technicians ensure your transmission operates at peak performance',
-            longDescription: 'We understand the importance of a well-functioning transmission in delivering a smooth and reliable driving experience. Our comprehensive transmission services cover everything from routine maintenance, like fluid changes and filter replacements, to more extensive repairs, including clutch repairs and complete transmission rebuilds. Whether you drive an automatic or manual transmission, our experienced technicians use state-of-the-art equipment to diagnose and address any issues, ensuring your transmission performs efficiently and lasts longer. Trust us to keep your vehicle running smoothly with our expert transmission services',
+            shortDescription: 'We specialize in transmission services to keep your vehicle shifting smoothly. From fluid changes to complete transmission rebuilds, our expert technicians ensure your transmission operates at peak performance.',
+            longDescription: 'We understand the importance of a well-functioning transmission in delivering a smooth and reliable driving experience. Our comprehensive transmission services cover everything from routine maintenance, like fluid changes and filter replacements, to more extensive repairs, including clutch repairs and complete transmission rebuilds. Whether you drive an automatic or manual transmission, our experienced technicians use state-of-the-art equipment to diagnose and address any issues, ensuring your transmission performs efficiently and lasts longer. Trust us to keep your vehicle running smoothly with our expert transmission services. With our attention to detail and commitment to quality, you can rely on us to maintain your transmission’s optimal performance, ensuring safe and efficient vehicle operation.',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
             image: 'transmission-services-repairs.png',
             imageExtension: 'png',
-            keywords: ['Brake Pad Replacement', 'Brake Rotor Resurfacing or Replacement', 'Brake Fluid Change', 'Transmission', 'Suspension Services'],
+            keywords: ['Transmission Repair', 'Fluid Change', 'Clutch Repair', 'Transmission Diagnostics', 'Transmission Rebuild'],
             subServices: [
                 {
                     name: 'Transmission Fluid Change',
@@ -421,7 +419,7 @@ module.exports = {
             name: 'Suspension Services/Repairs',
             slug: 'suspension-repairs',
             shortDescription: 'We provide expert suspension services to ensure a smooth and stable ride. From shock absorber replacements to full suspension overhauls, our technicians keep your vehicle’s suspension system in top condition.',
-            longDescription: 'We understand the critical role a well-maintained suspension system plays in your vehicle’s handling, comfort, and safety. Our comprehensive suspension services cover everything from routine inspections and shock absorber replacements to more extensive repairs, including strut replacements and full suspension overhauls. Whether you\'re dealing with uneven tire wear, poor handling, or a rough ride, our experienced technicians use advanced tools to diagnose and resolve any suspension issues, ensuring your vehicle stays stable and comfortable on the road.',
+            longDescription: 'We understand the critical role a well-maintained suspension system plays in your vehicle’s handling, comfort, and safety. Our comprehensive suspension services cover everything from routine inspections and shock absorber replacements to more extensive repairs, including strut replacements and full suspension overhauls. Whether you\'re dealing with uneven tire wear, poor handling, or a rough ride, our experienced technicians use advanced tools to diagnose and resolve any suspension issues, ensuring your vehicle stays stable and comfortable on the road. With our suspension services, you can expect improved vehicle stability, reduced wear on tires, and a more comfortable driving experience, enhancing both safety and enjoyment on the road.',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
             image: 'suspension-services-repairs.png',
             imageExtension: 'png',

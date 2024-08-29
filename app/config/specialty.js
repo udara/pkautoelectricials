@@ -1,19 +1,19 @@
 module.exports =  {
     order: 2,
     category: 'Specialty-Services',
-    slug:'specialty-services',
+    slug: 'specialty-services',
     categoryDisplayName: 'Specialty Services',
-    description:'Specialty-Services shortDescription',
-    image:'specialty-services',
+    description: 'Our Specialty Services cater to specific needs in various industries, including traffic management, mining, and vehicle customization. We offer expert installations, maintenance, and repairs tailored to meet the unique demands of each sector. From installing advanced safety systems to maintaining power tools, our specialized services are designed to enhance performance, safety, and reliability across a range of applications.',
+    image: 'specialty-services',
     typeOfServices: [
         {
             name: 'Installations for Traffic Management Vehicles',
             slug: 'installations-for-traffic-management-vehicles',
-            shortDescription: '',
-            longDescription: '',
+            shortDescription: 'Professional installations of critical systems for traffic management vehicles, ensuring safety and compliance.',
+            longDescription: 'Our installation services for traffic management vehicles are designed to enhance safety and operational efficiency. We provide and install essential equipment such as arrow boards, VMS boards, and UHF radios, all tailored to meet industry standards. Our installations are carried out by skilled technicians who ensure that each system is set up for optimal performance. Whether you’re managing traffic flow, providing public information, or ensuring clear communication, our services are geared towards maximizing safety and reliability in all traffic management scenarios.',
             image: 'installations-for-traffic-management-vehicles.png',
             imageExtension: 'png',
-            keywords: [],
+            keywords: ['Traffic Management', 'Vehicle Installations', 'Arrow Boards', 'VMS Boards', 'UHF Radios'],
             subServices: [
                 {
                     name: 'Arrow Boards Supply and Installation',
@@ -80,13 +80,12 @@ module.exports =  {
         {
             name: 'Vehicle Accessory Installation',
             slug: 'vehicle-accessory-installation',
-            shortDescription: 'Vehicle Accessory Installation',
-            longDescription: 'Vehicle Accessory Installation Description goes here',
+            shortDescription: 'Professional installation of vehicle accessories to enhance functionality and style.',
+            longDescription: 'Our Vehicle Accessory Installation service covers a wide range of aftermarket accessories designed to enhance both the functionality and appearance of your vehicle. From installing bull bars, roof racks, and tow bars to more specialized accessories like lighting upgrades and communication systems, we ensure that each installation is carried out to the highest standards. Our experienced technicians work with precision to integrate accessories seamlessly with your vehicle, ensuring they perform reliably and look great. Whether you’re outfitting a work vehicle or customizing your personal ride, our installation services will help you achieve the perfect setup.',
             image: 'vehicle-accessory-installation.png',
             imageExtension: 'png',
-            keywords: [],
+            keywords: ['Vehicle Accessories', 'Installation', 'Bull Bars', 'Roof Racks', 'Tow Bars', 'Lighting Upgrades'],
             subServices: []
         }
-
     ]
 }

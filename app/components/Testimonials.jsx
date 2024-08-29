@@ -65,9 +65,9 @@ const Testimonials = () => {
     return (
         <div id='#testimonials' className={`max-w-screen-xl mx-auto gap-12 mt-12 px-6`}>
             <h2 className={`text-3xl text-center max-w-[600px] font-racing text-header mb-6 lg:mb-0 mx-auto`}>Testimonials</h2>
-            <p className={`text-xl text-para max-w-[600px] mx-auto text-center mt-6 lg:mb-0 mb-6 `}>We're proud of the
+            <p className={`text-xl text-para max-w-[600px] mx-auto text-center mt-6 lg:mb-0 mb-6 `}>We&apos;re proud of the
                 trust our customers place in us, and their
-                feedback speaks volumes. Here's what some
+                feedback speaks volumes. Here&apos;s what some
                 of them have to say about their experience with PK Auto Care:</p>
             <section className="relative bg-white mx-auto">
                 <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:px-6">
@@ -80,7 +80,7 @@ const Testimonials = () => {
                                 fill="currentColor"/>
                         </svg>
                         <blockquote>
-                            <p className="text-xl text-para ">"{testimonial}"</p>
+                            <p className="text-xl text-para ">&quot;{testimonial}&quot;</p>
                         </blockquote>
                         <figcaption className="flex items-center justify-center mt-6 space-x-3">
                             <div className="flex items-center divide-x-2 divide-gray-500 ">

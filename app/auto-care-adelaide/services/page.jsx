@@ -19,7 +19,7 @@ const ServicesMainPage = () => {
                 We offer comprehensive automotive services, including air conditioning repairs, battery testing and
                 installation, and electrical and mechanical maintenance. For businesses, we provide complete fleet
                 management and specialty services like traffic management installations and handbrake alarms, ensuring
-                your vehicle's safety and efficiency
+                your vehicle&apos;s safety and efficiency
             </p>
             <div
                 className="grid mt-12 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

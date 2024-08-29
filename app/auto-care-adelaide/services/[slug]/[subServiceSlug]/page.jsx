@@ -24,7 +24,7 @@ const SubService = ({params}) => {
                 </h1>
                 <Image
                     src={`/images/services/${subService.image}`}
-                    className={`w-full mb-6`}
+                    className={`w-full mb-6 rounded-xl`}
                     alt={`${subService.name} Adelaide`}
                     title={`${subService.image}`}
                     placeholder="blur"
@@ -42,10 +42,10 @@ const SubService = ({params}) => {
                                 <h2 id={sub.slug} className={`text-para text-xl lg:text-lg font-bold mb-5`}>
                                     {sub.name}
                                 </h2>
-                                <div className="flex items-start mb-3">
+                                <div className="block md:flex items-start mb-3">
                                     <Image
                                         src={`/images/services/${sub.image}`}
-                                        className={`mr-4`} // Remove float, keep margin
+                                        className={`mr-4 mb-6 w-full md:w-auto rounded-xl`} // Remove float, keep margin
                                         alt={`${subService.name} Adelaide`}
                                         title={`${subService.name} Adelaide`}
                                         placeholder="blur"

@@ -33,7 +33,7 @@ const FAQ = () => {
     };
 
     return (
-        <div id='faqs' className={`max-w-screen-xl mx-auto gap-12 mt-12 px-6`}>
+        <div id='faqs' className={`max-w-screen-xl  mx-auto gap-12 mt-12 px-6`}>
             <section className="py-24">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div
@@ -44,7 +44,7 @@ const FAQ = () => {
                                 src="/images/faqs.png"
                                 alt="PK Auto care"
                                 placeholder="blur"
-                                className={"w-full opacity-90"}
+                                className={"w-full rounded-xl opacity-90"}
                                 width={530}
                                 height={672}
                                 blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
@@ -63,7 +63,7 @@ const FAQ = () => {
                                             className={`accordion py-8 border-b border-solid border-gray-200 ${activeIndex === index ? 'active' : ''}`}
                                         >
                                             <button
-                                                className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-600 w-full transition duration-500 hover:text-oceanBlue"
+                                                className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-600 w-full transition duration-500 hover:text-crimsonFlame"
                                                 aria-controls={`faq-content-${index}`}
                                                 onClick={() => toggleAccordion(index)}
                                             >

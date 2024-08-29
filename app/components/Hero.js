@@ -3,9 +3,9 @@ import config from "../config/index"
 import Image from "next/image";
 const Hero = () => {
 
-    const renderedHeroBoxes = config.feature.map((item => {
-        return <HeroBox header={item.category} list={item.subServices}/>
-    }))
+    const renderedHeroBoxes = config.feature.map((item,index) => {
+        return <HeroBox key={`herobox-${index}`} header={item.category} list={item.subServices}/>
+    });
     return (
         <div className={`w-full bg-hero bg-cover bg-center min-h-[calc(100vh-111px)]`}>
             <div className={`bg-[#000] bg-opacity-30 min-h-[calc(100vh-111px)]`}>
