@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import Breadcrums from "../components/Breadcrums";
 import IconListBoxWithLink from "../components/IconListBoxWithLink";
 

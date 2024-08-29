@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import SiteConfig from '../config/index'
 
@@ -9,14 +8,11 @@ const Footer = () => {
                 <div className="lg:flex md:justify-between">
                     <div className="mb-9 mt-3 lg:mb-0 lg:mt-0">
                         <Link href={'/'}>
-                            <Image
+                            <img
                                 src="/images/logo.png"
                                 alt="PK Auto care"
-                                placeholder="blur"
                                 width={125}
                                 height={50}
-                                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                                priority
                             />
                         </Link>
                     </div>
@@ -85,26 +81,20 @@ const Footer = () => {
                             <ul className="text-para font-light">
                                 <li className="mb-4">
                                     <Link href="tel:0412241341" className="flex gap-3">
-                                        <Image
+                                        <img
                                             src="/images/telephone.png"
                                             alt="PK Auto care"
-                                            placeholder="blur"
                                             width={25}
                                             height={25}
-                                            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                                            priority
                                         />{SiteConfig.telephone}
                                     </Link>
                                 </li>
                                 <li className="flex gap-3 mb-4">
-                                    <Image
+                                    <img
                                         src="/images/location.png"
                                         alt="PK Auto care"
-                                        placeholder="blur"
                                         width={25}
                                         height={25}
-                                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                                        priority
                                     />
                                     <address>{SiteConfig.address_footer}</address>
                                 </li>

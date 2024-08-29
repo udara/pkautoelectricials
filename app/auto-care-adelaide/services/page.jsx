@@ -1,6 +1,4 @@
 import Breadcrums from "../../components/Breadcrums";
-import Image from 'next/image';
-import Link from 'next/link';
 import IconListBoxWithLink from "../../components/IconListBoxWithLink";
 
 

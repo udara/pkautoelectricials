@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import Image from 'next/image'
 import Link from 'next/link'
 import BurgerMenu from "./BurgerMenu";
 import config from '../config'
@@ -15,28 +14,20 @@ const Nav = () => {
             <nav
                 className="bg-charcoal dark:bg-charcoal fixed w-full z-20 top-0 start-0 dark:border-gray-600">
                 <div className={`bg-crimsonFlame text-xl justify-center flex items-center gap-3 py-2 text-white h-10 text-center`}>
-                    <Image
+                    <img
+                        className={`max-w-[25px]`}
                         src="/images/location-nav.png"
                         alt="PK Auto care"
-                        placeholder="blur"
-                        width={25}
-                        height={25}
-                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                        priority
                     />
                     {config.address}
                 </div>
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <div className={"px-4 py-3 bg-charcoal rounded-xl"}>
                         <Link href={'/'}>
-                            <Image
+                            <img
                                 src="/images/logo.png"
                                 alt="PK Auto care"
-                                placeholder="blur"
-                                width={150}
-                                height={50}
-                                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                                priority
+                                className={`max-w-[147px]`}
                             />
                         </Link>
                     </div>
@@ -73,14 +64,9 @@ const Nav = () => {
                             <li>
                                 <Link href={`tel:${config.telephone}`}
                                       className="flex gap-3 py-3 md:py-0 text-white font-roboto px-3 rounded md:p-0">
-                                    <Image
+                                    <img
                                         src="/images/telephone-nav.svg"
                                         alt="PK Auto care"
-                                        placeholder="blur"
-                                        width={25}
-                                        height={25}
-                                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                                        priority
                                     />{config.telephone}
                                 </Link>
                             </li>

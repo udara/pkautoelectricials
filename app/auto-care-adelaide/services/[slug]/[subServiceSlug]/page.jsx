@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import config from "../../../../config";
 import Breadcrums from "../../../../components/Breadcrums";
 
@@ -22,16 +21,12 @@ const SubService = ({params}) => {
                 <h1 className={`text-3xl max-w-[600px] mt-4 font-racing text-header mb-10`}>
                     {subService.name} in Adelaide
                 </h1>
-                <Image
+                <img
                     src={`/images/services/${subService.image}`}
                     className={`w-full mb-6 rounded-xl`}
                     alt={`${subService.name} Adelaide`}
-                    title={`${subService.image}`}
-                    placeholder="blur"
                     width={725}
                     height={0}
-                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                    priority
                 />
                 <p className={`text-para text-xl lg:text-lg mb-10`}>{subService.longDescription}</p>
                 {/* Render more details about the sub-service */}
@@ -43,16 +38,11 @@ const SubService = ({params}) => {
                                     {sub.name}
                                 </h2>
                                 <div className="block md:flex items-start mb-3">
-                                    <Image
+                                    <img
                                         src={`/images/services/${sub.image}`}
-                                        className={`mr-4 mb-6 w-full md:w-auto rounded-xl`} // Remove float, keep margin
+                                        className={`mr-4 mb-6 w-full lg:max-w-[100px] md:w-auto rounded-xl`} // Remove float, keep margin
                                         alt={`${subService.name} Adelaide`}
                                         title={`${subService.name} Adelaide`}
-                                        placeholder="blur"
-                                        width={100}
-                                        height={0}
-                                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                                        priority
                                     />
                                     <p className={`text-para text-xl lg:text-lg`}>
                                         {sub.description}

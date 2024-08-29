@@ -1,6 +1,5 @@
 "use client";
 import { useState } from 'react';
-import Image from "next/image";
 
 const FAQS = [
     {
@@ -40,15 +39,13 @@ const FAQ = () => {
                         className="flex flex-col justify-center items-start gap-x-16 gap-y-5 xl:gap-28 lg:flex-row lg:justify-between max-lg:max-w-2xl mx-auto max-w-full"
                     >
                         <div className="w-full lg:w-1/2">
-                            <Image
+                            <img
                                 src="/images/faqs.png"
                                 alt="PK Auto care"
                                 placeholder="blur"
                                 className={"w-full rounded-xl opacity-90"}
                                 width={530}
                                 height={672}
-                                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                                priority
                             />
                         </div>
                         <div className="w-full lg:w-1/2">

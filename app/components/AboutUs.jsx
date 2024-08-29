@@ -1,18 +1,14 @@
-import Image from "next/image";
 
 const AboutUs = () => {
     return (
         <div id='about' className={`lg:flex  items-start max-w-screen-xl mx-auto mt-12 gap-12 p-6`}>
             <div className={`w-full lg:w-1/2`}>
-                <Image
+                <img
                     src="/images/services/about-pk-auto-care.png"
                     alt="PK Auto care"
-                    placeholder="blur"
                     className={"w-full opacity-80 rounded-xl"}
                     width={400}
                     height={400}
-                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                    priority
                 />
             </div>
             <div className={`lg:w-1/2 my-8 lg:my-0`}>

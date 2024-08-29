@@ -25,8 +25,8 @@ module.exports = {
                 {
                     name: 'Oil Change and Filter Replacement',
                     description: 'Routine oil changes and filter replacements to keep your engine well-lubricated and running efficiently.',
-                    image: 'oil_change_filter_replacement.jpg',
-                    imageExtension: 'jpg',
+                    image: 'oil_change_filter_replacement.png',
+                    imageExtension: 'png',
                     vehicles: ['cars', 'motor bikes', 'light trucks']
                 },
                 {

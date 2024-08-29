@@ -1,8 +1,6 @@
 import {Racing_Sans_One, Roboto} from 'next/font/google';
 import "../globals.css";
 import config from '../config'
-import Image from "next/image";
-import Footer from "../components/Footer";
 
 const racing = Racing_Sans_One({subsets: ['latin'], variable: '--font-racing-sans-one', weight: ['400']});
 const roboto = Roboto({
@@ -28,15 +26,12 @@ export default function RootLayout({children}) {
                         Call us for a quote
                     </div>
                     <p className={`text-xl flex gap-3 font-normal font-light text-para`}>
-                        <Image
+                        <img
                             src="/images/telephone.png"
                             alt="PK Auto care"
-                            placeholder="blur"
                             className={"opacity-50"}
                             width={25}
                             height={25}
-                            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                            priority
                         />
                         {config.telephone}
                     </p>
@@ -44,30 +39,24 @@ export default function RootLayout({children}) {
                         Visit us
                     </div>
                     <div className={`flex items-start`}>
-                        <Image
+                        <img
                             src="/images/location.png"
                             alt="PK Auto care"
-                            placeholder="blur"
                             className={"opacity-50"}
                             width={25}
                             height={25}
-                            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                            priority
                         />
                         <p className={`text-xl ml-3 font-normal text-para mb-3`}>
                             {config.address}
                         </p>
                     </div>
 
-                    <Image
+                    <img
                         src="/images/RAA-Approved.png"
                         alt="RAA-Approved Repairer - Mechanical, Electrical and Air Conditioning"
                         className={`mt-6`}
-                        placeholder="blur"
                         width={200}
                         height={50}
-                        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." // Base64-encoded LQIP image
-                        priority
                     />
                 </div>
             </div>
