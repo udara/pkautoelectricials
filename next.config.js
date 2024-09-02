@@ -11,6 +11,7 @@ module.exports = {
     images: {
         unoptimized: true,
     },
+    distDir: 'build',
     assetPrefix: '',  // Ensure this matches your GitHub Pages repository name
     basePath: '',      // Ensure this matches your GitHub Pages repository name
 }
