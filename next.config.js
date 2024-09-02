@@ -7,13 +7,17 @@
 //
 // module.exports = nextConfig;
 
+// module.exports = {
+//     images: {
+//         unoptimized: true,
+//     },
+//     distDir: 'build',
+//     assetPrefix: '',  // Ensure this matches your GitHub Pages repository name
+//     basePath: '',      // Ensure this matches your GitHub Pages repository name
+// }
 module.exports = {
-    images: {
-        unoptimized: true,
-    },
-    distDir: 'build',
-    assetPrefix: '',  // Ensure this matches your GitHub Pages repository name
-    basePath: '',      // Ensure this matches your GitHub Pages repository name
-}
+    output: 'export',
+    distDir: 'build', // Optional: If you want to customize the build directory
+};
 
 //assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
