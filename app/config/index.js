@@ -34,7 +34,7 @@ module.exports = {
                 },
                 {
                     name:'Brakes Repair and Services',
-                    link: 'auto-care-adelaide/services/mechanical/breaks-repairs',
+                    link: 'auto-care-adelaide/services/mechanical/brakes-repairs',
                 },
                 {
                     name:'Clutch Repair and Services',
@@ -64,7 +64,7 @@ module.exports = {
                 },
                 {
                     name:'Driving, Mining & Emergency Lights',
-                    link: 'auto-care-adelaide/services/electrical/lighting',
+                    link: 'auto-care-adelaide/services/electrical/led-driving-mining-emergency-lights',
                 },
                 {
                     name:'Reversing Sensors and Cameras Installation',
@@ -81,7 +81,7 @@ module.exports = {
             ]
         },
         {
-            category: 'Auto HVAC Engineering',
+            category: 'Auto Air Conditioning',
             mainLink: 'auto-care-adelaide/services/air-conditioning',
             subServices: [
                 {
@@ -99,15 +99,7 @@ module.exports = {
                 {
                     name:'Air Conditioning Service and Repair',
                     link: 'auto-care-adelaide/services/air-conditioning/air-conditioning-service-and-repair',
-                },
-                {
-                    name:'Retro Fitting Air Conditioning Unit',
-                    link: 'auto-care-adelaide/services/air-conditioning/retro-fitting-air-conditioning-unit',
-                },
-                {
-                    name:'Gas Recovery Service',
-                    link: 'auto-care-adelaide/services/air-conditioning/gas-recovery-service',
-                },
+                }
             ]
         },
         {
@@ -120,22 +112,18 @@ module.exports = {
                 },
                 {
                     name:'Arrow Boards Supply and Installation',
-                    link: 'auto-care-adelaide/services/specialty-services/arrow-boards-supply-and-installation',
+                    link: 'auto-care-adelaide/services/specialty-services/installations-for-traffic-management-vehicles#arrow-boards-supply-and-installation',
                 },
                 {
                     name:'VMS Boards Supply and Installation',
-                    link: 'auto-care-adelaide/services/specialty-services/vms-boards-supply-and-installation',
+                    link: 'auto-care-adelaide/services/specialty-services/installations-for-traffic-management-vehicles',
                 },
                 {
-                    name:'Power Tool Maintenance and Repair',
-                    link: 'auto-care-adelaide/services/specialty-services/power-tool-maintenance-and-repair',
+                    name:'UHF Radio Supply and Installation',
+                    link: 'auto-care-adelaide/services/specialty-services/installations-for-traffic-management-vehicles',
                 },
                 {
-                    name:'Handbrake Alarms for Mining Vehicles',
-                    link: 'auto-care-adelaide/services/specialty-services/handbrake-alarms',
-                },
-                {
-                    name:'Handbrake Alarms for Traffic Management Vehicles',
+                    name:'Handbrake Alarms for Traffic Management / Mining Vehicles',
                     link: 'auto-care-adelaide/services/specialty-services/handbrake-alarms',
                 },
             ]

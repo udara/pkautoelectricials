@@ -11,8 +11,8 @@ module.exports =  {
             slug: 'comprehensive-fleet-management-services',
             shortDescription: 'End-to-end fleet management services to optimize your vehicle fleet’s performance and efficiency.',
             longDescription: 'Our Comprehensive Fleet Management Services provide complete solutions for managing your vehicle fleet efficiently and effectively. From vehicle acquisition and maintenance scheduling to fuel management and telematics integration, our services are designed to maximize fleet performance, reduce operational costs, and ensure compliance with regulatory requirements. We tailor our services to meet the specific needs of your business, helping you manage your fleet with greater control and visibility.',
-            image: 'fleet-management-services',
-            imageExtension: 'jpg',
+            image: 'fleet-management-services.png',
+            imageExtension: 'png',
             keywords: [
                 'Fleet Management',
                 'Vehicle Fleet Optimization',

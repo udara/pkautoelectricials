@@ -57,6 +57,58 @@ module.exports =  {
                 'Air Conditioning Service',
                 'Vehicle AC Maintenance'
             ]
+        },
+        {
+            name: 'Compressors',
+            slug: 'air-conditioning-service-and-repair',
+            shortDescription: 'Professional service and repair of your vehicle’s air conditioning unit.',
+            longDescription: 'Our Air Conditioning Service and Repair covers all aspects of maintaining and repairing your vehicle\'s AC system. From routine maintenance to complex repairs, our technicians ensure your air conditioning unit functions smoothly and efficiently.',
+            image: 'air-conditioning-service-and-repair.png',
+            imageExtension: 'png',
+            keywords: [
+                'AC Repair',
+                'Air Conditioning Service',
+                'Vehicle AC Maintenance'
+            ]
+        },
+        {
+            name: 'Condensors',
+            slug: 'air-conditioning-service-and-repair',
+            shortDescription: 'Professional service and repair of your vehicle’s air conditioning unit.',
+            longDescription: 'Our Air Conditioning Service and Repair covers all aspects of maintaining and repairing your vehicle\'s AC system. From routine maintenance to complex repairs, our technicians ensure your air conditioning unit functions smoothly and efficiently.',
+            image: 'air-conditioning-service-and-repair.png',
+            imageExtension: 'png',
+            keywords: [
+                'AC Repair',
+                'Air Conditioning Service',
+                'Vehicle AC Maintenance'
+            ]
+        },
+        {
+            name: 'Aluminium air conditioning pipe repair and hose repair',
+            slug: 'air-conditioning-service-and-repair',
+            shortDescription: '',
+            longDescription: '',
+            image: 'air-conditioning-service-and-repair.png',
+            imageExtension: 'png',
+            keywords: [
+                'AC Repair',
+                'Air Conditioning Service',
+                'Vehicle AC Maintenance'
+            ]
+        },
+        {
+            name: 'Aluminium air conditioning pipe repair',
+            slug: 'air-conditioning-service-and-repair',
+            shortDescription: 'Professional service and repair of your vehicle’s air conditioning unit.',
+            longDescription: 'Our Air Conditioning Service and Repair covers all aspects of maintaining and repairing your vehicle\'s AC system. From routine maintenance to complex repairs, our technicians ensure your air conditioning unit functions smoothly and efficiently.',
+            image: 'air-conditioning-service-and-repair.png',
+            imageExtension: 'png',
+            keywords: [
+                'AC Repair',
+                'Air Conditioning Service',
+                'Vehicle AC Maintenance'
+            ]
         }
     ]
 }

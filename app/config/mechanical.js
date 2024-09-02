@@ -30,13 +30,6 @@ module.exports = {
                     vehicles: ['cars', 'motor bikes', 'light trucks']
                 },
                 {
-                    name: 'Tire Rotation and Alignment',
-                    description: 'Rotating and aligning tires to ensure even wear, extending tire life, and improving vehicle handling.',
-                    image: 'tire_rotation_alignment.png',
-                    imageExtension: 'png',
-                    vehicles: ['cars', 'motor bikes', 'light trucks']
-                },
-                {
                     name: 'Brake Inspection and Servicing',
                     description: 'Thorough brake inspections and servicing to ensure your vehicle’s braking system is safe and effective.',
                     image: 'brake_inspection_servicing.png',
@@ -150,7 +143,7 @@ module.exports = {
                     imageExtension: 'png'
                 },
                 {
-                    name: 'Brake Rotor Resurfacing or Replacement',
+                    name: 'Machining Rotors or Replacement',
                     description: 'Resurfacing or replacing the brake rotors if they are warped, grooved, or too thin to ensure smooth braking.',
                     image: 'brake-rotor-resurfacing-or-replacement.png',
                     imageExtension: 'png'

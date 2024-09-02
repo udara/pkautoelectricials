@@ -28,7 +28,7 @@ const Hero = () => {
                                     className="mr-[8px]"
                                     width="25"
                                     height="4"
-                                /> RAA <span className={`text-raaYellow underline ml-2`}>Approved</span></span>  Mechanical Electrical and Air Conditioning Engineers</h1>
+                                /> RAA <span className={`text-raaYellow underline ml-2`}>Approved</span></span>  Auto Electrical, Mechanical and Air Conditioning Engineers</h1>
                     </div>
                     <div
                         className="grid mt-6 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-white">

@@ -13,7 +13,7 @@ const AboutUs = () => {
             </div>
             <div className={`lg:w-1/2 my-8 lg:my-0`}>
                 <h2 className={`text-3xl max-w-[600px] font-racing text-header mb-6`}>Serving Adelaide Since
-                    1997</h2>
+                    2000</h2>
                 <p className={`text-para text-xl lg:text-lg `}>
                     For over two decades, PK Auto Care has been Adelaide&apos;s trusted choice for automotive services.
                     Our expert team is committed to delivering high-quality care and ensuring every customer leaves
