@@ -99,6 +99,14 @@ module.exports = {
                 {
                     name:'Air Conditioning Service and Repair',
                     link: 'auto-care-adelaide/services/air-conditioning/air-conditioning-service-and-repair',
+                },
+                {
+                    name:'Compressor Inspection and Replacement',
+                    link: 'auto-care-adelaide/services/air-conditioning/compressor-inspection-and-replacement',
+                },
+                {
+                    name:'Aluminium air conditioning pipe repair and hose repair',
+                    link: 'auto-care-adelaide/services/air-conditioning/aluminium-air-conditioning-pipe-repair-and-hose-repair',
                 }
             ]
         },

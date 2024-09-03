@@ -20,8 +20,8 @@ module.exports =  {
             ]
         },
         {
-            name: 'Leak Detection and Repair',
-            slug: 'leak-detection-and-repair',
+            name: 'Leak Detection and Repair and Top-Up',
+            slug: 'leak-detection-and-repair-and-top-u  p',
             shortDescription: 'Pinpoint and repair any leaks or potential leaks in your air conditioning system.',
             longDescription: 'Our Leak Detection and Repair service identifies and repairs leaks within your vehicle\'s air conditioning system. We utilize specialized equipment to locate even the smallest leaks, ensuring your system operates efficiently and reliably.',
             image: 'leak-detection-and-repair.png',
@@ -59,11 +59,11 @@ module.exports =  {
             ]
         },
         {
-            name: 'Compressors',
-            slug: 'air-conditioning-service-and-repair',
-            shortDescription: 'Professional service and repair of your vehicle’s air conditioning unit.',
-            longDescription: 'Our Air Conditioning Service and Repair covers all aspects of maintaining and repairing your vehicle\'s AC system. From routine maintenance to complex repairs, our technicians ensure your air conditioning unit functions smoothly and efficiently.',
-            image: 'air-conditioning-service-and-repair.png',
+            name: 'Compressor Inspection and Replacement',
+            slug: 'compressor-inspection-and-replacement',
+            shortDescription: 'Ensure your air conditioning system\'s compressor is functioning properly or replace it if necessary.',
+            longDescription: 'Ensure your air conditioning system\'s compressor is functioning properly or replace it if necessary.',
+            image: 'compressor-inspection-and-replacement.png',
             imageExtension: 'png',
             keywords: [
                 'AC Repair',
@@ -72,11 +72,24 @@ module.exports =  {
             ]
         },
         {
-            name: 'Condensors',
-            slug: 'air-conditioning-service-and-repair',
-            shortDescription: 'Professional service and repair of your vehicle’s air conditioning unit.',
-            longDescription: 'Our Air Conditioning Service and Repair covers all aspects of maintaining and repairing your vehicle\'s AC system. From routine maintenance to complex repairs, our technicians ensure your air conditioning unit functions smoothly and efficiently.',
-            image: 'air-conditioning-service-and-repair.png',
+            name: 'Evaporator and Condenser Cleaning, Inspection and Replacement',
+            slug: 'evaporator-and-condenser-cleaning-inspection-and-replacement',
+            shortDescription: 'Remove debris and contaminants from the evaporator and condenser to maintain optimal cooling performance.',
+            longDescription: 'Remove debris and contaminants from the evaporator and condenser to maintain optimal cooling performance.',
+            image: 'evaporator-and-condenser-cleaning-inspection-and-replacement.png',
+            imageExtension: 'png',
+            keywords: [
+                'AC Repair',
+                'Air Conditioning Service',
+                'Vehicle AC Maintenance'
+            ]
+        },
+        {
+            name: 'Filter Replacement',
+            slug: 'air-conditioning-filter-replacement',
+            shortDescription: 'Replace cabin air filters to ensure clean and efficient airflow within the vehicle.',
+            longDescription: 'Replace cabin air filters to ensure clean and efficient airflow within the vehicle.',
+            image: 'air-conditioning-filter-replacement.png',
             imageExtension: 'png',
             keywords: [
                 'AC Repair',
@@ -86,10 +99,10 @@ module.exports =  {
         },
         {
             name: 'Aluminium air conditioning pipe repair and hose repair',
-            slug: 'air-conditioning-service-and-repair',
-            shortDescription: '',
-            longDescription: '',
-            image: 'air-conditioning-service-and-repair.png',
+            slug: 'aluminium-air-conditioning-pipe-repair-and-hose-repair',
+            shortDescription: 'We repair or replace damaged aluminium pipes and hoses in your vehicle\'s air conditioning system to ensure optimal cooling performance and prevent leaks.',
+            longDescription: 'We repair or replace damaged aluminium pipes and hoses in your vehicle\'s air conditioning system to ensure optimal cooling performance and prevent leaks.',
+            image: 'aluminium-air-conditioning-pipe-repair-and-hose-repair.png',
             imageExtension: 'png',
             keywords: [
                 'AC Repair',
@@ -98,17 +111,35 @@ module.exports =  {
             ]
         },
         {
-            name: 'Aluminium air conditioning pipe repair',
-            slug: 'air-conditioning-service-and-repair',
-            shortDescription: 'Professional service and repair of your vehicle’s air conditioning unit.',
-            longDescription: 'Our Air Conditioning Service and Repair covers all aspects of maintaining and repairing your vehicle\'s AC system. From routine maintenance to complex repairs, our technicians ensure your air conditioning unit functions smoothly and efficiently.',
-            image: 'air-conditioning-service-and-repair.png',
+            name: 'Thermostat and Temperature Control Calibration',
+            slug: 'thermostat-and-temperature-control-calibration',
+            shortDescription: 'Calibrate the air conditioning system\'s thermostat and temperature controls for accurate climate control.',
+            longDescription: 'Calibrate the air conditioning system\'s thermostat and temperature controls for accurate climate control.',
+            image: 'thermostat-and-temperature-control-calibration.png',
             imageExtension: 'png',
             keywords: [
                 'AC Repair',
                 'Air Conditioning Service',
                 'Vehicle AC Maintenance'
             ]
+        },
+        {
+            name: 'Climate Control System Diagnostics',
+            slug: 'climate-control-system-diagnostics',
+            shortDescription: 'Diagnose and troubleshoot issues related to the vehicle\'s automatic climate control system.',
+            longDescription: 'Diagnose and troubleshoot issues related to the vehicle\'s automatic climate control system.',
+            image: 'climate-control-system-diagnostics.png',
+            imageExtension: 'png',
+            keywords: []
+        },
+        {
+            name: 'Odor Removal and Anti-Bacterial Treatment',
+            slug: 'odor-removal-and-anti-bacterial-treatment',
+            shortDescription: 'This service eliminates unpleasant smells and harmful bacteria from your vehicle’s air conditioning system. It may involve removing the dashboard to access and deep-clean the evaporator core and other components, ensuring fresh and healthy air inside your vehicle',
+            longDescription: 'This service eliminates unpleasant smells and harmful bacteria from your vehicle’s air conditioning system. It may involve removing the dashboard to access and deep-clean the evaporator core and other components, ensuring fresh and healthy air inside your vehicle',
+            image: 'odor-removal-and-anti-bacterial-treatment.png',
+            imageExtension: 'png',
+            keywords: []
         }
     ]
 }

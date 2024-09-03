@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
         openGraph: {
             title: `${service.categoryDisplayName} Services in Adelaide - PK Auto Care`,
             description: `Explore our ${service.categoryDisplayName.toLowerCase()} services in Adelaide. We provide top-notch ${service.categoryDisplayName.toLowerCase()} services for all your automotive needs.`,
-            url: `https://yourwebsite.com/auto-care-adelaide/services/${service.slug}`,
+            url: `http://pkautocare.com.au/auto-care-adelaide/services/${service.slug}`,
             images: [
                 {
                     url: `/images/services/${service.image || 'default.jpg'}`,

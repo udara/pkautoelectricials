@@ -4,7 +4,7 @@ import AboutUs from "./components/AboutUs";
 import FAQ from "./components/FAQ";
 
 export const metadata = {
-    title: "PK Auto Care - Mechanical, Electrical and Air Conditioning Services in Adelaide"
+    title: "PK Auto Care - Auto Electrical, Mechanical and Air Conditioning Services in Adelaide"
 };
 
 const Home = () => {

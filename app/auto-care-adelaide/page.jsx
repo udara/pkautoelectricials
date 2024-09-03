@@ -3,7 +3,7 @@ import IconListBoxWithLink from "../components/IconListBoxWithLink";
 
 
 export const metadata = {
-    title: "Auto Electrical, Mechanical and Air Conditioning Engineers in Adelaide"
+    title: "PK Auto Care - Auto Electrical, Mechanical and Air Conditioning Services in Adelaide"
 };
 
 const ServicesMainPage = () => {
