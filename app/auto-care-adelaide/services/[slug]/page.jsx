@@ -3,10 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Breadcrums from "../../../components/Breadcrums";
 
-export const metadata = {
-    title: "PK Auto Care - Mechanical, Electrical and Air Conditioning Services in Adelaide",
-};
-
 // This function generates the static paths for each service slug
 export async function generateStaticParams() {
     const paths = config.services.map(service => ({
@@ -14,6 +10,36 @@ export async function generateStaticParams() {
     }));
 
     return paths;
+}
+
+// This function generates dynamic metadata for the page
+export async function generateMetadata({ params }) {
+    const service = config.services.find((service) => service.slug === params.slug);
+
+    if (!service) {
+        return {
+            title: "Service Not Found - PK Auto Care",
+            description: "Service not found. Please check the URL or go back to the homepage.",
+        };
+    }
+
+    return {
+        title: `${service.categoryDisplayName} Services in Adelaide - PK Auto Care`,
+        description: `Explore our ${service.categoryDisplayName.toLowerCase()} services in Adelaide. We provide top-notch ${service.categoryDisplayName.toLowerCase()} services for all your automotive needs.`,
+        openGraph: {
+            title: `${service.categoryDisplayName} Services in Adelaide - PK Auto Care`,
+            description: `Explore our ${service.categoryDisplayName.toLowerCase()} services in Adelaide. We provide top-notch ${service.categoryDisplayName.toLowerCase()} services for all your automotive needs.`,
+            url: `https://yourwebsite.com/auto-care-adelaide/services/${service.slug}`,
+            images: [
+                {
+                    url: `/images/services/${service.image || 'default.jpg'}`,
+                    width: 800,
+                    height: 600,
+                    alt: `${service.categoryDisplayName} Adelaide`,
+                },
+            ],
+        },
+    };
 }
 
 // This component fetches and displays the service data

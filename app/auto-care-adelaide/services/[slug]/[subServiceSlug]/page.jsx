@@ -13,6 +13,47 @@ export async function generateStaticParams() {
     return paths;
 }
 
+// This function generates dynamic metadata for the page
+export async function generateMetadata({ params }) {
+    const service = config.services.find((service) => service.slug === params.slug);
+
+    if (!service) {
+        return {
+            title: "Service Not Found - PK Auto Care",
+            description: "Service not found. Please check the URL or go back to the homepage.",
+        };
+    }
+
+    const subService = service.typeOfServices.find((subService) =>
+        subService.slug.endsWith(params.subServiceSlug)
+    );
+
+    if (!subService) {
+        return {
+            title: "Sub-service Not Found - PK Auto Care",
+            description: "Sub-service not found. Please check the URL or go back to the homepage.",
+        };
+    }
+
+    return {
+        title: `${subService.name} in Adelaide - PK Auto Care`,
+        description: subService.shortDescription,
+        openGraph: {
+            title: `${subService.name} in Adelaide - PK Auto Care`,
+            description: subService.shortDescription,
+            url: `https://pkautocare.com.au/auto-care-adelaide/services/${service.slug}/${subService.slug}`,
+            images: [
+                {
+                    url: `/images/services/${subService.image}`,
+                    width: 800,
+                    height: 600,
+                    alt: `${subService.name} Adelaide`,
+                },
+            ],
+        },
+    };
+}
+
 const SubService = ({ params }) => {
     const service = config.services.find((service) => service.slug === params.slug);
 

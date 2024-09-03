@@ -21,12 +21,12 @@ const ServicesMainPage = () => {
             </p>
             <div
                 className="grid mt-12 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <IconListBoxWithLink text={`Mechanical`} link={`services/mechanical`} image={`/images/mechanicalIcon.png`} />
-                <IconListBoxWithLink text={`Auto Electrical`} link={`services/electrical`} image={`/images/electricalIcon.png`} />
-                <IconListBoxWithLink text={`Air Conditioning`} link={`services/air-conditioning`} image={`/images/ac_unit.png`} />
-                <IconListBoxWithLink text={`Specialty Services`} link={`services/specialty-services`} image={`/images/mechanicalIcon.png`} />
-                <IconListBoxWithLink text={`Fleet Management`} link={`services/fleet-management`} image={`/images/mechanicalIcon.png`} />
-                <IconListBoxWithLink text={`Battery Replacement`} link={`services/battery`} image={`/images/mechanicalIcon.png`} />
+                <IconListBoxWithLink text={`Mechanical`} link={`mechanical`} image={`/images/mechanicalIcon.png`} />
+                <IconListBoxWithLink text={`Auto Electrical`} link={`electrical`} image={`/images/electricalIcon.png`} />
+                <IconListBoxWithLink text={`Air Conditioning`} link={`air-conditioning`} image={`/images/ac_unit.png`} />
+                <IconListBoxWithLink text={`Specialty Services`} link={`specialty-services`} image={`/images/mechanicalIcon.png`} />
+                <IconListBoxWithLink text={`Fleet Management`} link={`fleet-management`} image={`/images/mechanicalIcon.png`} />
+                <IconListBoxWithLink text={`Battery Replacement`} link={`battery`} image={`/images/mechanicalIcon.png`} />
             </div>
         </div>
     );
