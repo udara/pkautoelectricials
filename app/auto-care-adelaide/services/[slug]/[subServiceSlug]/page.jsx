@@ -1,14 +1,28 @@
 import config from "../../../../config";
 import Breadcrums from "../../../../components/Breadcrums";
 
-const SubService = ({params}) => {
+// This function generates the static paths for each sub-service slug
+export async function generateStaticParams() {
+    const paths = config.services.flatMap((service) =>
+        service.typeOfServices.map((subService) => ({
+            slug: service.slug,
+            subServiceSlug: subService.slug.split('/').pop(),
+        }))
+    );
+
+    return paths;
+}
+
+const SubService = ({ params }) => {
     const service = config.services.find((service) => service.slug === params.slug);
 
     if (!service) {
         return <p>Service not found</p>;
     }
 
-    const subService = service.typeOfServices.find((subService) => subService.slug.endsWith(params.subServiceSlug));
+    const subService = service.typeOfServices.find((subService) =>
+        subService.slug.endsWith(params.subServiceSlug)
+    );
 
     if (!subService) {
         return <p>Sub-service not found</p>;
@@ -32,44 +46,27 @@ const SubService = ({params}) => {
                 {/* Render more details about the sub-service */}
                 <ul>
                     {subService.subServices?.map((sub, index) => (
+                        <li className={`mb-5`} key={index}>
+                            <h2 id={sub.slug} className={`text-para text-xl lg:text-lg font-bold mb-5`}>
+                                {sub.name}
+                            </h2>
+                            <div className="block md:flex items-start mb-3">
+                                <img
+                                    src={`/images/services/${sub.image}`}
+                                    className={`mr-4 mb-6 w-full lg:max-w-[100px] md:w-auto rounded-xl`} // Remove float, keep margin
+                                    alt={`${subService.name} Adelaide`}
+                                    title={`${subService.name} Adelaide`}
+                                />
+                                <p className={`text-para text-xl lg:text-lg`}>
+                                    {sub.description}
+                                </p>
+                            </div>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+    );
+};
 
-                            <li className={`mb-5`} key={index}>
-                                <h2 id={sub.slug} className={`text-para text-xl lg:text-lg font-bold mb-5`}>
-                                    {sub.name}
-                                </h2>
-                                <div className="block md:flex items-start mb-3">
-                                    <img
-                                        src={`/images/services/${sub.image}`}
-                                        className={`mr-4 mb-6 w-full lg:max-w-[100px] md:w-auto rounded-xl`} // Remove float, keep margin
-                                        alt={`${subService.name} Adelaide`}
-                                        title={`${subService.name} Adelaide`}
-                                    />
-                                    <p className={`text-para text-xl lg:text-lg`}>
-                                        {sub.description}
-                                    </p>
-                                </div>
-                            </li>
-
-                        ))}
-                        </ul>
-                        </div>
-                        </div>
-                        );
-                        };
-
-                        export default SubService;
-
-                        export async function generateStaticParams() {
-                        const paths = [];
-
-                        config.services.forEach((service) => {
-                        service.typeOfServices.forEach((subService) => {
-                        paths.push({
-                        slug: service.slug,
-                        subServiceSlug: subService.slug.split('/').pop(),
-                    });
-                    });
-                    });
-
-                        return paths;
-                    }
+export default SubService;

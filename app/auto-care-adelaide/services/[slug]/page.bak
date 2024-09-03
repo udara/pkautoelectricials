@@ -4,19 +4,16 @@ import Image from 'next/image';
 import Breadcrums from "../../../components/Breadcrums";
 
 export const metadata = {
-    title: "PK Auto Care - Mechanical, Electrical and Air Conditioning Services in Adelaide",
+    title: "PK Auto Care - Mechanical, Electrical and Air Conditioning Services in Adelaide"
 };
 
 // This function generates the static paths for each service slug
 export async function generateStaticParams() {
-    const paths = config.services.map(service => ({
+    return config.services.map(service => ({
         slug: service.slug,
     }));
-
-    return paths;
 }
 
-// This component fetches and displays the service data
 const Services = ({ params }) => {
     const service = config.services.find((service) => service.slug === params.slug);
 
