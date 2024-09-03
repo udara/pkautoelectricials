@@ -4,23 +4,23 @@ import { useState } from 'react';
 const FAQS = [
     {
         q: 'What areas of Adelaide do you provide services to?',
-        a: 'We travel to all areas of Adelaide, including the outer suburbs, to provide our mobile services.'
+        a: 'Our services are available across all areas of Adelaide, including the outer suburbs. However, service availability is subject to the type of service requested and the availability of our staff. Please contact us to confirm availability in your area.'
     },
     {
         q: 'Do you offer warranties on your services and products?',
         a: 'Yes, we offer warranties on our services and products. The duration of the warranty varies depending on the specific product or service. Please contact us for more details.'
     },
     {
-        q: 'How quickly can you respond to emergency request?',
-        a: 'We offer emergency services and aim to respond as quickly as possible, typically within a few hours. Please contact us immediately if you require urgent assistance.'
+        q: 'How quickly can you respond to emergency requests?',
+        a: 'We strive to respond to emergency requests as quickly as possible, typically within a few hours. However, response times may vary depending on the distance, type of service required, and the availability of our staff. Please contact us immediately for urgent assistance and to confirm our response time.'
     },
     {
         q: 'Can I get a quote before you start the work?',
-        a: 'Absolutely! We provide detailed quotes before starting any work so that you know exactly what to expect. There are no hidden fees, and we\'ll only proceed with your approval.'
+        a: 'Absolutely! We aim to provide detailed quotes before starting any work whenever possible. However, the ability to provide an accurate quote upfront may depend on the type of service and the ability to assess the work required. Rest assured, there are no hidden fees, and we will only proceed with your approval.'
     },
     {
         q: 'What payment methods do you accept?',
-        a: 'We accept various payment methods, including cash, credit/debit cards, and online bank transfers. Payment is due upon completion of the service, and we can provide an invoice for your records.'
+        a: 'We accept cash, credit and debit cards, and in selected cases, account transfers subject to discretion.'
     }
 ];
 

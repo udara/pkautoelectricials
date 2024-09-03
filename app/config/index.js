@@ -2,7 +2,7 @@ const mechanical = require('./mechanical');
 const electrical = require('./electrical');
 const specialty = require('./specialty');
 const airConditioning = require('./air-conditioning');
-const fleetManagement = require('./fleet-management');
+const vehicleAccessoryFitting = require('./vehicle-accessory-fitting');
 const battery = require('./battery');
 
 module.exports = {
@@ -16,7 +16,7 @@ module.exports = {
         electrical,
         airConditioning,
         specialty,
-        fleetManagement,
+        vehicleAccessoryFitting,
         battery
     ],
     feature: [
@@ -129,20 +129,28 @@ module.exports = {
             ]
         },
         {
-            category: 'Fleet Management',
-            mainLink: 'auto-care-adelaide/services/fleet-management',
+            category: 'Vehicle Accessory Services',
+            mainLink: 'auto-care-adelaide/services/vehicle-accessory-fitter',
             subServices: [
                 {
-                    name:'Comprehensive Fleet Management Services',
-                    link: 'auto-care-adelaide/services/fleet-management/comprehensive-fleet-management-services',
+                    name:'Second Battery System Setup',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/second-battery-system-setup',
                 },
                 {
-                    name:'Fleet Maintenance and Repair',
-                    link: 'auto-care-adelaide/services/fleet-management/fleet-maintenance-repair',
+                    name:'Solar Power Systems',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/solar-power-systems',
                 },
                 {
-                    name:'Compliance and Regulatory Services',
-                    link: 'auto-care-adelaide/services/fleet-management/compliance-regulatory-services',
+                    name:'Anderson plug wiring',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/anderson-plug-wiring',
+                },
+                {
+                    name:'12-pin Trailer plug wiring',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/12-pin-trailer-plug-wiring',
+                },
+                {
+                    name:'Boat Trailer Lighting',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/boat-trailer-lighting-and-electric-brake',
                 },
             ]
         },

@@ -45,22 +45,6 @@ module.exports =  {
             ]
         },
         {
-            name: 'Power Tool Maintenance and Repair',
-            slug: 'power-tool-maintenance-and-repair',
-            shortDescription: 'Expert maintenance and repair services for all types of power tools.',
-            longDescription: 'Our Power Tool Maintenance and Repair service offers comprehensive solutions to keep your power tools in top condition. Whether you use drills, saws, grinders, or other electric tools, our skilled technicians provide expert repairs, routine maintenance, and performance enhancements to ensure your tools operate efficiently and reliably. This service is ideal for both professional tradespeople and DIY enthusiasts who rely on their tools to get the job done.',
-            image: 'power-tool-maintenance-and-repair.png',
-            imageExtension: 'png',
-            keywords: [
-                'Power Tool Repair',
-                'Tool Maintenance',
-                'Electric Tool Repair',
-                'Tool Servicing',
-                'Power Tool Performance'
-            ],
-            subServices: []
-        },
-        {
             name: 'Handbrake Alarms for Mining, Traffic Management Vehicles and Trucks',
             slug: 'handbrake-alarms',
             shortDescription: 'Specialized handbrake alarm systems for enhanced safety across various vehicle types.',

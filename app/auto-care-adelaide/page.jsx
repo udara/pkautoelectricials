@@ -3,7 +3,7 @@ import IconListBoxWithLink from "../components/IconListBoxWithLink";
 
 
 export const metadata = {
-    title: "PK Auto Care - Mechanical, Electrical and Air Conditioning Services in Adelaide"
+    title: "Auto Electrical, Mechanical and Air Conditioning Engineers in Adelaide"
 };
 
 const ServicesMainPage = () => {
@@ -24,7 +24,7 @@ const ServicesMainPage = () => {
                 <IconListBoxWithLink text={`Auto Electrical`} link={`auto-care-adelaide/services/electrical`} image={`/images/electricalIcon.png`} />
                 <IconListBoxWithLink text={`Air Conditioning`} link={`auto-care-adelaide/services/air-conditioning`} image={`/images/ac_unit.png`} />
                 <IconListBoxWithLink text={`Specialty Services`} link={`auto-care-adelaide/services/specialty-services`} image={`/images/mechanicalIcon.png`} />
-                <IconListBoxWithLink text={`Fleet Management`} link={`auto-care-adelaide/services/fleet-management`} image={`/images/mechanicalIcon.png`} />
+                <IconListBoxWithLink text={`Accessory Fitting`} link={`auto-care-adelaide/services/vehicle-accessory-fitter`} image={`/images/mechanicalIcon.png`} />
                 <IconListBoxWithLink text={`Battery Replacement`} link={`auto-care-adelaide/services/battery`} image={`/images/mechanicalIcon.png`} />
             </div>
         </div>
