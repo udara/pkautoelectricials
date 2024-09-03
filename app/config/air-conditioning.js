@@ -98,7 +98,7 @@ module.exports =  {
             ]
         },
         {
-            name: 'Aluminium air conditioning pipe repair and hose repair',
+            name: 'Aluminium air conditioning pipe and hose repair',
             slug: 'aluminium-air-conditioning-pipe-repair-and-hose-repair',
             shortDescription: 'We repair or replace damaged aluminium pipes and hoses in your vehicle\'s air conditioning system to ensure optimal cooling performance and prevent leaks.',
             longDescription: 'We repair or replace damaged aluminium pipes and hoses in your vehicle\'s air conditioning system to ensure optimal cooling performance and prevent leaks.',
