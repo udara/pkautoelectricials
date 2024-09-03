@@ -1,5 +1,5 @@
 "use client";
-
+import { GoogleTagManager } from '@next/third-parties/google'
 import { Racing_Sans_One, Roboto } from 'next/font/google';
 import "./globals.css";
 import Nav from "./components/Nav"
@@ -11,6 +11,7 @@ const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto', weight: [
 export default function RootLayout({children}) {
     return (
         <html lang="en">
+        <GoogleTagManager gtmId="GTM-KDF6RF65" />
         <body className={`${racing.variable} ${roboto.variable}`}>
         <Nav/>
         {children}
