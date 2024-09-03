@@ -23,9 +23,9 @@ const ServicesMainPage = () => {
                 <IconListBoxWithLink text={`Mechanical`} link={`auto-care-adelaide/services/mechanical`} image={`/images/mechanicalIcon.png`} />
                 <IconListBoxWithLink text={`Auto Electrical`} link={`auto-care-adelaide/services/electrical`} image={`/images/electricalIcon.png`} />
                 <IconListBoxWithLink text={`Air Conditioning`} link={`auto-care-adelaide/services/air-conditioning`} image={`/images/ac_unit.png`} />
-                <IconListBoxWithLink text={`Specialty Services`} link={`auto-care-adelaide/services/specialty-services`} image={`/images/mechanicalIcon.png`} />
-                <IconListBoxWithLink text={`Accessory Fitting`} link={`auto-care-adelaide/services/vehicle-accessory-fitter`} image={`/images/mechanicalIcon.png`} />
-                <IconListBoxWithLink text={`Battery Replacement`} link={`auto-care-adelaide/services/battery`} image={`/images/mechanicalIcon.png`} />
+                <IconListBoxWithLink text={`Specialty Services`} link={`auto-care-adelaide/services/specialty-services`} image={`/images/special.png`} />
+                <IconListBoxWithLink text={`Accessory Fitting`} link={`auto-care-adelaide/services/vehicle-accessory-fitter`} image={`/images/accessoryFitting.png`} />
+                <IconListBoxWithLink text={`Battery Replacement`} link={`auto-care-adelaide/services/battery`} image={`/images/battery.png`} />
             </div>
         </div>
     );
