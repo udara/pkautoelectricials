@@ -1,5 +1,5 @@
 module.exports = {
-    async redirects() {
+    redirects: async () => {
         return [
             {
                 source: '/:path*',
