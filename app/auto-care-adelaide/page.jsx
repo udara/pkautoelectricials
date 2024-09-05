@@ -1,20 +1,6 @@
 import Breadcrums from "../components/Breadcrums";
 import IconListBoxWithLink from "../components/IconListBoxWithLink";
 
-
-export const getServerSideProps = async (context) => {
-    const { req, res } = context;
-
-    if (req.headers.host.match(/^www/) !== null) {
-        res.writeHead(301, {
-            location: "https://" + req.headers.host.replace(/^www./, "") + req.url,
-        });
-        res.end();
-    }
-
-    return { props: {} };
-};
-
 export const metadata = {
     title: "PK Auto Care - Auto Electrical, Mechanical and Air Conditioning Services in Adelaide"
 };
