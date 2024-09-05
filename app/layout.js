@@ -13,9 +13,9 @@ export default function RootLayout({children}) {
         <html lang="en">
         <GoogleTagManager gtmId="GTM-KDF6RF65" />
         <body className={`${racing.variable} ${roboto.variable}`}>
-        <Nav/>
+        {/*<Nav/>*/}
         {children}
-        <Footer/>
+        {/*<Footer/>*/}
         </body>
         </html>
     );
