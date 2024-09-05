@@ -21,7 +21,7 @@ module.exports =  {
         },
         {
             name: 'Leak Detection and Repair and Top-Up',
-            slug: 'leak-detection-and-repair-and-top-u  p',
+            slug: 'leak-detection-and-repair-and-top-up',
             shortDescription: 'Pinpoint and repair any leaks or potential leaks in your air conditioning system.',
             longDescription: 'Our Leak Detection and Repair service identifies and repairs leaks within your vehicle\'s air conditioning system. We utilize specialized equipment to locate even the smallest leaks, ensuring your system operates efficiently and reliably.',
             image: 'leak-detection-and-repair.png',
