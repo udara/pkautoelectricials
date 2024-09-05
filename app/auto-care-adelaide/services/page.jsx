@@ -21,12 +21,12 @@ const ServicesMainPage = () => {
             </p>
             <div
                 className="grid mt-12 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <IconListBoxWithLink text={`Mechanical`} link={`mechanical`} image={`/images/mechanicalIcon.png`} />
-                <IconListBoxWithLink text={`Auto Electrical`} link={`electrical`} image={`/images/electricalIcon.png`} />
-                <IconListBoxWithLink text={`Air Conditioning`} link={`air-conditioning`} image={`/images/ac_unit.png`} />
-                <IconListBoxWithLink text={`Specialty Services`} link={`specialty-services`} image={`/images/special.png`} />
-                <IconListBoxWithLink text={`Accessory Fitting`} link={`vehicle-accessory-fitter`} image={`/images/accessoryFitting.png`} />
-                <IconListBoxWithLink text={`Battery Replacement`} link={`battery`} image={`/images/battery.png`} />
+                <IconListBoxWithLink text={`Mechanical`} link={`https://pkautocare.com.au/auto-care-adelaide/services/mechanical`} image={`/images/mechanicalIcon.png`} />
+                <IconListBoxWithLink text={`Auto Electrical`} link={`https://pkautocare.com.au/auto-care-adelaide/services/electrical`} image={`/images/electricalIcon.png`} />
+                <IconListBoxWithLink text={`Air Conditioning`} link={`https://pkautocare.com.au/auto-care-adelaide/services/air-conditioning`} image={`/images/ac_unit.png`} />
+                <IconListBoxWithLink text={`Specialty Services`} link={`https://pkautocare.com.au/auto-care-adelaide/services/specialty-services`} image={`/images/special.png`} />
+                <IconListBoxWithLink text={`Accessory Fitting`} link={`https://pkautocare.com.au/auto-care-adelaide/services/vehicle-accessory-fitter`} image={`/images/accessoryFitting.png`} />
+                <IconListBoxWithLink text={`Battery Replacement`} link={`https://pkautocare.com.au/auto-care-adelaide/services/battery`} image={`/images/battery.png`} />
             </div>
         </div>
     );
