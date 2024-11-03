@@ -25,9 +25,9 @@ const Nav = () => {
                     <div className={"px-4 py-3 bg-charcoal rounded-xl"}>
                         <Link href={'/'}>
                             <img
-                                src="/images/pk-mobile-auto-electrical.png"
+                                src="/images/logo.png"
                                 alt="PK Auto care"
-                                className={`max-w-[200px]`}
+                                className={`max-w-[160px]`}
                             />
                         </Link>
                     </div>

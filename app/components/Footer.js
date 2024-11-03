@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="mb-9 mt-3 lg:mb-0 lg:mt-0">
                         <Link href={'/'}>
                             <img
-                                src="/images/pk-mobile-auto-electrical.png"
+                                src="/images/logo.png"
                                 alt="PK Auto care"
                                 width={125}
                                 height={50}
