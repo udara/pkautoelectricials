@@ -14,7 +14,7 @@ const ServicesMainPage = () => {
                 Mechanical, Auto Electrical and Air Conditioning Services in Adelaide
             </h1>
             <p className={`text-para text-xl lg:text-lg`}>
-            We provide a full range of automotive services, including air conditioning repairs, battery testing and installation, and electrical and mechanical maintenance. For businesses, we offer complete fleet management along with specialized services for traffic management vehicles, caravans, boats, and earth-moving equipment installations, all focused on enhancing your vehicle's safety and durability.
+            We provide a full range of automotive services, including air conditioning repairs, battery testing and installation, and electrical and mechanical maintenance. For businesses, we offer complete fleet management along with specialized services for traffic management vehicles, caravans, boats, and earth-moving equipment installations, all focused on enhancing your vehicle&apos;s safety and durability.
             </p>
             <div
                 className="grid mt-12 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
