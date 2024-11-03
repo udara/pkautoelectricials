@@ -1,6 +1,8 @@
 import {Racing_Sans_One, Roboto} from 'next/font/google';
 import "../globals.css";
-import config from '../config'
+import config from '../config';
+import Link from 'next/link';
+import SiteConfig from '../config/index';
 
 const racing = Racing_Sans_One({subsets: ['latin'], variable: '--font-racing-sans-one', weight: ['400']});
 const roboto = Roboto({
@@ -25,15 +27,29 @@ export default function RootLayout({children}) {
                     <div className={`text-xl text-charcoal mt-10 mb-3 font-racing text-header `}>
                         Call us for a quote
                     </div>
+                    <p className={`text-xl flex gap-3 pb-3 font-normal font-light text-para`}>
+                        <Link href={`tel:${SiteConfig.mobilePhone}`} className="flex gap-3">
+                            <img
+                                src="/images/telephone.png"
+                                alt="PK Auto care"
+                                className={"opacity-50"}
+                                width={25}
+                                height={25}
+                            />
+                        {config.mobilePhone}
+                        </Link>
+                    </p>
                     <p className={`text-xl flex gap-3 font-normal font-light text-para`}>
-                        <img
-                            src="/images/telephone.png"
-                            alt="PK Auto care"
-                            className={"opacity-50"}
-                            width={25}
-                            height={25}
-                        />
-                        {config.telephone}
+                    <Link href={`tel:${SiteConfig.lanPhone}`} className="flex gap-3">
+                            <img
+                                src="/images/telephone.png"
+                                alt="PK Auto care"
+                                className={"opacity-50"}
+                                width={25}
+                                height={25}
+                            />
+                        {config.lanPhone}
+                        </Link>
                     </p>
                     <div className={`text-xl text-charcoal mt-10 mb-3 font-racing text-header `}>
                         Visit us

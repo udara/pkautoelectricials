@@ -8,7 +8,7 @@ const FAQS = [
     },
     {
         q: 'Do you offer warranties on your services and products?',
-        a: 'Yes, we offer warranties on our services and products. The duration of the warranty varies depending on the specific product or service. Please contact us for more details.'
+        a: 'We offer warranties on our services and products, with durations tailored to each specific product or service. For full details, please reach out to us. Note that certain products and services may not be covered by a warranty.'
     },
     {
         q: 'How quickly can you respond to emergency requests?',
@@ -20,7 +20,7 @@ const FAQS = [
     },
     {
         q: 'What payment methods do you accept?',
-        a: 'We accept cash, credit and debit cards, and in selected cases, account transfers subject to discretion.'
+        a: 'We accept cash, credit and debit cards.'
     }
 ];
 

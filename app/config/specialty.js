@@ -60,16 +60,6 @@ module.exports =  {
                 'Truck Safety'
             ],
             subServices: []
-        },
-        {
-            name: 'Vehicle Accessory Installation',
-            slug: 'vehicle-accessory-installation',
-            shortDescription: 'Professional installation of vehicle accessories to enhance functionality and style.',
-            longDescription: 'Our Vehicle Accessory Installation service covers a wide range of aftermarket accessories designed to enhance both the functionality and appearance of your vehicle. From installing bull bars, roof racks, and tow bars to more specialized accessories like lighting upgrades and communication systems, we ensure that each installation is carried out to the highest standards. Our experienced technicians work with precision to integrate accessories seamlessly with your vehicle, ensuring they perform reliably and look great. Whether you’re outfitting a work vehicle or customizing your personal ride, our installation services will help you achieve the perfect setup.',
-            image: 'vehicle-accessory-installation.png',
-            imageExtension: 'png',
-            keywords: ['Vehicle Accessories', 'Installation', 'Bull Bars', 'Roof Racks', 'Tow Bars', 'Lighting Upgrades'],
-            subServices: []
         }
     ]
 }

@@ -7,7 +7,8 @@ const battery = require('./battery');
 
 module.exports = {
     name: `PK Auto care`,
-    telephone: `0412 241 341`,
+    mobilePhone: `0412 241 341`,
+    lanPhone: `0882 448 384`,
     email: `pk.autoelectrical@gmail.com`,
     address: '670 Port Rd, Beverley, SA 5009',
     address_footer: '670 Port Rd, Beverley, Adelaide, SA 5009',
@@ -60,23 +61,23 @@ module.exports = {
                 },
                 {
                     name:'Trailer/Caravan Electrical Work ',
-                    link: 'auto-care-adelaide/services/electrical/truck-trailer-auto-electrical-services',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/truck-and-trailer-accessory-fitter',
                 },
                 {
                     name:'Driving, Mining & Emergency Lights',
-                    link: 'auto-care-adelaide/services/electrical/led-driving-mining-emergency-lights',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/led-driving-mining-emergency-lights',
                 },
                 {
                     name:'Reversing Sensors and Cameras Installation',
-                    link: 'auto-care-adelaide/services/electrical/reversing-sensors-cameras-installation',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/reversing-sensors-cameras-installation',
                 },
                 {
                     name:'Solar Power Systems',
-                    link: 'auto-care-adelaide/services/electrical/truck-trailer-auto-electrical-services#solar-power-systems',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/truck-and-trailer-accessory-fitter/#solar-power-systems',
                 },
                 {
                     name:'Electric Brakes Repair and Installation',
-                    link: 'auto-care-adelaide/services/electrical/truck-trailer-auto-electrical-services#electric-brakes-repair-installation',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/truck-and-trailer-accessory-fitter',
                 }
             ]
         },
@@ -90,7 +91,7 @@ module.exports = {
                 },
                 {
                     name:'Leak Detection and Repair',
-                    link: 'auto-care-adelaide/services/air-conditioning/leak-detection-and-repair',
+                    link: 'auto-care-adelaide/services/air-conditioning/leak-detection-and-repair-and-top-up',
                 },
                 {
                     name:'Air Conditioning Re-Gas',
@@ -142,11 +143,11 @@ module.exports = {
             subServices: [
                 {
                     name:'Second Battery System Setup',
-                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/second-battery-system-setup',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/truck-and-trailer-accessory-fitter',
                 },
                 {
                     name:'Solar Power Systems',
-                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/solar-power-systems',
+                    link: 'auto-care-adelaide/services/vehicle-accessory-fitter/truck-and-trailer-accessory-fitter',
                 },
                 {
                     name:'Anderson plug wiring',

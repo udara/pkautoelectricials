@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Breadcrums from "../../../components/Breadcrums";
 
 export const metadata = {
-    title: "PK Auto Care - Mechanical, Electrical and Air Conditioning Services in Adelaide"
+    title: "PK Auto Care - Mechanical,  Auto Electrical and Air Conditioning Services in Adelaide"
 };
 
 // This function generates the static paths for each service slug

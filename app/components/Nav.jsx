@@ -25,9 +25,9 @@ const Nav = () => {
                     <div className={"px-4 py-3 bg-charcoal rounded-xl"}>
                         <Link href={'/'}>
                             <img
-                                src="/images/logo.png"
+                                src="/images/pk-mobile-auto-electrical.png"
                                 alt="PK Auto care"
-                                className={`max-w-[147px]`}
+                                className={`max-w-[200px]`}
                             />
                         </Link>
                     </div>
@@ -62,12 +62,12 @@ const Nav = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href={`tel:${config.telephone}`}
+                                <Link href={`tel:${config.mobilePhone}`}
                                       className="flex gap-3 py-3 md:py-0 text-white font-roboto px-3 rounded md:p-0">
                                     <img
                                         src="/images/telephone-nav.svg"
                                         alt="PK Auto care"
-                                    />{config.telephone}
+                                    />{config.mobilePhone}
                                 </Link>
                             </li>
 

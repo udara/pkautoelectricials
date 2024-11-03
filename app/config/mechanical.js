@@ -9,8 +9,8 @@ module.exports = {
         {
             name: 'Mechanical Repairs/Maintenance',
             slug: 'mechanical-repairs-maintenance',
-            shortDescription: 'Our expert mechanical repairs are designed to keep your vehicle in top condition. From engine work and brake repairs to suspension adjustments, our skilled technicians handle all your vehicle’s mechanical needs with precision and care.',
-            longDescription: 'We provide comprehensive mechanical repair services to ensure your vehicle stays reliable and safe on the road. Our experienced technicians are equipped to handle a wide range of mechanical issues, from engine repairs and brake services to suspension adjustments and drivetrain maintenance. Using the latest diagnostic tools and high-quality parts, we quickly identify and fix problems, minimizing downtime and preventing future issues. Trust us to deliver top-notch mechanical repairs that keep your vehicle running smoothly and extend its lifespan, ensuring you stay safe and comfortable on every journey.',
+            shortDescription: 'Our expert mechanical repairs are designed to keep your vehicle in top condition. Our skilled technicians handle all your vehicle’s mechanical needs with precision and care.',
+            longDescription: 'We provide comprehensive mechanical repair services to ensure your vehicle stays reliable and safe on the road. Our experienced technicians are equipped to handle a wide range of mechanical issues, from engine repairs/maintenance and brake services. Using the latest diagnostic tools and genuine and after market parts, we quickly identify and fix problems, minimizing downtime and preventing future issues. Trust us to deliver top-notch mechanical repairs that keep your vehicle running smoothly and extend its lifespan, ensuring you stay safe and comfortable on every journey.',
             image: 'mechanical-repairs.jpg',
             imageExtension: 'jpg',
             keywords: ['Mechanical Repairs', 'Engine Repairs', 'Brake Services', 'Suspension Maintenance'],
@@ -18,7 +18,7 @@ module.exports = {
                 {
                     name: 'Engine Diagnostics and Management',
                     description: 'Engine management and fuel injection fault diagnosis to ensure your engine runs smoothly and efficiently.',
-                    image: 'engine_diagnostics_and_management.webp',
+                    image: 'engine_diagnostics_and_management.png',
                     imageExtension: 'webp',
                     vehicles: ['cars', 'motor bikes', 'light trucks']
                 },
@@ -51,7 +51,7 @@ module.exports = {
                     vehicles: ['cars', 'motor bikes', 'light trucks']
                 },
                 {
-                    name: 'Air Filter Replacement',
+                    name: 'Air Filter / Cabin Filters Replacement',
                     description: 'Replacing air filters to ensure clean air intake, improving engine performance and fuel efficiency.',
                     image: 'air_filter_replacement.png',
                     imageExtension: 'png',
@@ -61,6 +61,20 @@ module.exports = {
                     name: 'Exhaust System Inspection and Repair',
                     description: 'Inspecting and repairing the exhaust system to reduce emissions and ensure proper vehicle operation.',
                     image: 'exhaust_system_inspection_repair.png',
+                    imageExtension: 'png',
+                    vehicles: ['cars', 'motor bikes', 'light trucks']
+                },
+                {
+                    name: 'Wheel Bearing Replacement',
+                    description: 'Ensure a smooth and safe ride with our expert wheel bearing replacement service. Faulty wheel bearings can cause vibrations, noise, and uneven tire wear. Our technicians use high-quality parts to restore your vehicle’s performance, so you can drive confidently on every road.',
+                    image: 'wheel-bearing-replacement.png',
+                    imageExtension: 'png',
+                    vehicles: ['cars', 'motor bikes', 'light trucks']
+                },
+                {
+                    name: 'Drive Shaft Replacement',
+                    description: 'Keep your vehicle moving efficiently with our drive shaft replacement service. A worn drive shaft can lead to vibrations, steering issues, and unusual noises. Our skilled team will replace your drive shaft with precision, ensuring smooth power transfer and enhanced driving stability.',
+                    image: 'drive-shaft-replacement.png',
                     imageExtension: 'png',
                     vehicles: ['cars', 'motor bikes', 'light trucks']
                 }
@@ -112,7 +126,7 @@ module.exports = {
                     imageExtension: 'png'
                 },
                 {
-                    name: 'Air Filter Replacement',
+                    name: 'Air Filter / Cabin Filters Replacement',
                     description: 'Replacing the air filter to ensure optimal engine performance and fuel efficiency.',
                     image: 'air-filter-replacement.png',
                     imageExtension: 'png'
@@ -287,14 +301,14 @@ module.exports = {
                     imageExtension: 'png'
                 },
                 {
-                    name: 'Cooling System Service',
-                    description: 'Flushing and refilling the coolant, inspecting and replacing hoses, and checking the radiator and water pump.',
+                    name: 'Engine Cooling and Cabin Heating System Service',
+                    description: 'Flushing and refilling the coolant, inspecting and replacing hoses, and checking the radiator and water pump and heater core replacement.',
                     image: 'cooling-system-service.png',
                     imageExtension: 'png'
                 },
                 {
                     name: 'Fuel System Repair',
-                    description: 'Cleaning or replacing fuel injectors, inspecting the fuel pump, and replacing fuel filters.',
+                    description: 'Cleaning or replacing fuel injectors, inspecting the fuel pump, and replacing fuel filters and pumps.',
                     image: 'fuel-system-repair.png',
                     imageExtension: 'png'
                 },
@@ -324,7 +338,7 @@ module.exports = {
                 },
                 {
                     name: 'Air Intake System Service',
-                    description: 'Cleaning or replacing air filters, and inspecting the air intake manifold and sensors.',
+                    description: 'Cleaning or replacing air filters, and inspecting the air intake manifold and sensors and cleaning throttle body.',
                     image: 'air-intake-system-service.png',
                     imageExtension: 'png'
                 },
@@ -339,7 +353,7 @@ module.exports = {
         {
             name: 'Transmission Services/Repairs',
             slug: 'transmission-repairs',
-            shortDescription: 'We specialize in transmission services to keep your vehicle shifting smoothly. From fluid changes to complete transmission rebuilds, our expert technicians ensure your transmission operates at peak performance.',
+            shortDescription: 'We specialize in transmission services to keep your vehicle shifting smoothly. Our expert technicians ensure your transmission operates at peak performance.',
             longDescription: 'We understand the importance of a well-functioning transmission in delivering a smooth and reliable driving experience. Our comprehensive transmission services cover everything from routine maintenance, like fluid changes and filter replacements, to more extensive repairs, including clutch repairs and complete transmission rebuilds. Whether you drive an automatic or manual transmission, our experienced technicians use state-of-the-art equipment to diagnose and address any issues, ensuring your transmission performs efficiently and lasts longer. Trust us to keep your vehicle running smoothly with our expert transmission services. With our attention to detail and commitment to quality, you can rely on us to maintain your transmission’s optimal performance, ensuring safe and efficient vehicle operation.',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
             image: 'transmission-services-repairs.png',
@@ -359,60 +373,19 @@ module.exports = {
                     imageExtension: 'png'
                 },
                 {
-                    name: 'Transmission Diagnostics',
-                    description: 'Using advanced diagnostic tools to identify transmission issues such as slipping, hard shifts, or unusual noises.',
-                    image: 'transmission-diagnostics.png',
+                    name: 'Auto and Manual Transmission Replacements',
+                    description: 'Replacement of used or rebuilt transmissions.',
+                    image: 'auto-and-manual-transmission-replacements.png',
                     imageExtension: 'png'
                 },
-                {
-                    name: 'Clutch Repair and Replacement',
-                    description: 'Repairing or replacing the clutch in manual transmissions to ensure proper engagement and smooth gear changes.',
-                    image: 'clutch-repair-replacement.png',
-                    imageExtension: 'png'
-                },
-                {
-                    name: 'Transmission Rebuild',
-                    description: 'Disassembling and rebuilding the transmission, replacing worn or damaged parts to restore performance.',
-                    image: 'transmission-rebuild.png',
-                    imageExtension: 'png'
-                },
-                {
-                    name: 'Transmission Cooling System Service',
-                    description: 'Inspecting and servicing the cooling system to prevent the transmission from overheating.',
-                    image: 'transmission-cooling-service.png',
-                    imageExtension: 'png'
-                },
-                {
-                    name: 'Transmission Leak Repair',
-                    description: 'Identifying and repairing leaks in the transmission system to prevent fluid loss and potential damage.',
-                    image: 'transmission-leak-repair.png',
-                    imageExtension: 'png'
-                },
-                {
-                    name: 'Shift Cable or Linkage Adjustment',
-                    description: 'Adjusting or replacing shift cables or linkages to ensure proper gear selection and smooth operation.',
-                    image: 'shift-cable-adjustment.png',
-                    imageExtension: 'png'
-                },
-                {
-                    name: 'Torque Converter Repair or Replacement',
-                    description: 'Repairing or replacing the torque converter in automatic transmissions to ensure efficient power transfer.',
-                    image: 'torque-converter-repair.png',
-                    imageExtension: 'png'
-                },
-                {
-                    name: 'Transmission Pan Gasket Replacement',
-                    description: 'Replacing the transmission pan gasket to stop leaks and maintain proper fluid levels.',
-                    image: 'transmission-pan-gasket-replacement.png',
-                    imageExtension: 'png'
-                }
+
             ]
         },
         {
             name: 'Suspension Services/Repairs',
             slug: 'suspension-repairs',
             shortDescription: 'We provide expert suspension services to ensure a smooth and stable ride. From shock absorber replacements to full suspension overhauls, our technicians keep your vehicle’s suspension system in top condition.',
-            longDescription: 'We understand the critical role a well-maintained suspension system plays in your vehicle’s handling, comfort, and safety. Our comprehensive suspension services cover everything from routine inspections and shock absorber replacements to more extensive repairs, including strut replacements and full suspension overhauls. Whether you\'re dealing with uneven tire wear, poor handling, or a rough ride, our experienced technicians use advanced tools to diagnose and resolve any suspension issues, ensuring your vehicle stays stable and comfortable on the road. With our suspension services, you can expect improved vehicle stability, reduced wear on tires, and a more comfortable driving experience, enhancing both safety and enjoyment on the road.',
+            longDescription: 'We understand the critical role a well-maintained suspension system plays in your vehicle’s handling, comfort, and safety. Our comprehensive suspension services cover everything from routine inspections and shock absorber replacements, ball joints, lower and upper control arms, front and rear bushes and other suspension related parts and wheel alignment',
             vehicles: ['cars', 'motor bikes', 'light trucks'],
             image: 'suspension-services-repairs.png',
             imageExtension: 'png',
@@ -461,8 +434,8 @@ module.exports = {
                     imageExtension: 'png'
                 },
                 {
-                    name: 'Stabilizer Bar Repair',
-                    description: 'Repairing or replacing the stabilizer bar to reduce body roll and improve vehicle handling during turns.',
+                    name: 'Stabilizer Bar Replacment',
+                    description: 'Replacing the stabilizer bar to reduce body roll and improve vehicle handling during turns.',
                     image: 'stabilizer-bar-repair.png',
                     imageExtension: 'png'
                 },

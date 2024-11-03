@@ -7,10 +7,10 @@ module.exports =  {
     image: 'vehicle-accessory-fitting',
     typeOfServices: [
         {
-            name: "Truck & Trailer Accessory Fitting",
+            name: "Caravan, Truck & Trailer Accessory Fitting",
             slug: "truck-and-trailer-accessory-fitter",
-            shortDescription: "Comprehensive electrical services for trucks and trailers, ensuring your vehicle's electrical systems are reliable and safe.",
-            longDescription: "Our Truck & Trailer Auto Electrical Services provide expert solutions for all your vehicle's electrical needs. From setting up dual battery systems to repairing and installing electric brakes, we ensure your truck or trailer operates efficiently and safely on the road. Whether it's lighting, wiring, or charging systems, our experienced technicians are equipped to handle all aspects of auto electrical services.",
+            shortDescription: "Comprehensive electrical services for caravan, trucks and trailers, ensuring your vehicle's electrical systems are reliable and safe.",
+            longDescription: "Our Caravan, Truck & Trailer Auto Electrical Services provide expert solutions for all your vehicle's electrical needs. From setting up dual battery systems to repairing and installing electric brakes, solar charging systems, onboard vehicle battery management system we ensure your caravan, truck or trailer operates efficiently and safely on the road. Whether it's lighting, wiring, or charging systems, our experienced technicians are equipped to handle all aspects of auto electrical services.",
             image: "truck-and-trailer-auto-electrical-services.png",
             imageExtension: "png",
             keywords: [
@@ -49,20 +49,6 @@ module.exports =  {
                     ]
                 },
                 {
-                    name: "Boat Trailer Lighting and Electric Brake/Breakaway Units",
-                    slug: "boat-trailer-lighting-and-electric-brake",
-                    shortDescription: "Ensure your boat trailer is road-ready with our lighting and brake services.",
-                    description: "Our Boat Trailer Lighting and Electric Brake/Breakaway Units service provides complete electrical solutions for boat trailers. We handle everything from wiring and installing lights to setting up electric brakes and breakaway units, ensuring your trailer is safe and compliant with road regulations.",
-                    image: "boat-trailer-lighting-and-electric-brake.png",
-                    imageExtension: "png",
-                    keywords: [
-                        "Boat Trailer Lighting",
-                        "Electric Brake Setup",
-                        "Breakaway Units",
-                        "Trailer Safety"
-                    ]
-                },
-                {
                     name: "Anderson plug wiring",
                     slug: "anderson-plug-wiring",
                     shortDescription: "Professional Anderson plug wiring for reliable power connections in your vehicle.",
@@ -79,7 +65,7 @@ module.exports =  {
                     name: "12-pin Trailer plug wiring",
                     slug: "12-pin-trailer-plug-wiring",
                     shortDescription: "Ensure all your trailer’s electrical connections are secure with our 12-pin plug wiring service.",
-                    description: "Our 12-pin Trailer Plug Wiring service provides expert wiring solutions to ensure your trailer’s electrical systems are fully functional and secure. Perfect for trailers with complex electrical needs, our service ensures every pin is correctly wired for optimal performance.",
+                    description: "Our 12-pin Trailer Plug Wiring service provides expert wiring solutions to ensure your trailer’s electrical systems are fully functional and secure. Perfect for trailers with complex electrical needs, our service ensures every pin is correctly wired for standard requirements.",
                     image: "12-pin-trailer-plug-wiring.png",
                     imageExtension: "png",
                     keywords: [
@@ -102,22 +88,33 @@ module.exports =  {
                         "RV Solar Installation",
                         "Eco-Friendly Power Solutions"
                     ]
-                }
-            ]
-        },
-        {
-            name: "Solar Power Systems",
-            slug: "solar-power-systems",
-            shortDescription: "Efficient solar power systems for sustainable energy solutions in your vehicle.",
-            longDescription: "Our Solar Power Systems service offers the installation and setup of high-efficiency solar panels and related components to provide sustainable energy solutions for your vehicle. Whether you're looking to power your caravan, RV, or other vehicles, our solar systems ensure you have a reliable and eco-friendly energy source, reducing dependency on traditional power sources and lowering your carbon footprint.",
-            image: "solar-power-systems-acc.png",
-            imageExtension: "png",
-            keywords: [
-                "Solar Power Systems",
-                "Vehicle Solar Panels",
-                "Sustainable Energy",
-                "RV Solar Installation",
-                "Eco-Friendly Power Solutions"
+                },
+                {
+                    name: 'BCDC Charger Installation',
+                    slug: 'bcdc-charger-installation',
+                    shortDescription: 'Professional installation of BCDC chargers for efficient dual battery charging and power management.',
+                    description: 'Our BCDC Charger Installation service provides reliable installation of DC-to-DC chargers, ideal for managing power in dual battery systems. These chargers are designed to optimize power distribution between your main and auxiliary batteries, especially beneficial for vehicles with heavy electrical loads, ensuring batteries stay charged while on the move.',
+                    image: 'bcdc-charger-installation.png',
+                    imageExtension: 'png',
+                    keywords: [
+                        'BCDC Charger',
+                        'DC-to-DC Charging',
+                        'Dual Battery Charging'
+                    ]
+                },
+                {
+                    name: 'Inverter Installation',
+                    slug: 'inverter-installation',
+                    shortDescription: 'Professional inverter installation to provide reliable AC power for all your on-the-go needs.',
+                    description: 'Our Inverter Installation service allows you to convert DC power to AC, enabling the use of standard appliances and tools in your vehicle. Perfect for off-grid setups and recreational vehicles, we ensure proper installation and configuration to handle your power requirements safely and efficiently.',
+                    image: 'inverter-installation.png',
+                    imageExtension: 'png',
+                    keywords: [
+                        'Inverter Installation',
+                        'DC to AC Power',
+                        'Vehicle Power Solutions'
+                    ]
+                },
             ]
         },
         {
@@ -132,45 +129,6 @@ module.exports =  {
                 "Electric Brake Setup",
                 "Breakaway Units",
                 "Trailer Safety"
-            ]
-        },
-        {
-            name: "Anderson plug wiring",
-            slug: "anderson-plug-wiring",
-            shortDescription: "Professional Anderson plug wiring for reliable power connections in your vehicle.",
-            longDescription: "Our Anderson Plug Wiring service offers expert installation of Anderson plugs, providing a reliable power connection for your vehicle’s electrical needs. Whether you need it for towing, charging, or connecting auxiliary devices, our service ensures safe and efficient wiring.",
-            image: "anderson-plug-wiring-acc.png",
-            imageExtension: "png",
-            keywords: [
-                "Anderson Plug Installation",
-                "Vehicle Wiring",
-                "Power Connections"
-            ]
-        },
-        {
-            name: "12-pin Trailer plug wiring",
-            slug: "12-pin-trailer-plug-wiring",
-            shortDescription: "Ensure all your trailer’s electrical connections are secure with our 12-pin plug wiring service.",
-            longDescription: "Our 12-pin Trailer Plug Wiring service provides expert wiring solutions to ensure your trailer’s electrical systems are fully functional and secure. Perfect for trailers with complex electrical needs, our service ensures every pin is correctly wired for optimal performance.",
-            image: "12-pin-trailer-plug-wiring.png",
-            imageExtension: "png",
-            keywords: [
-                "Trailer Plug Wiring",
-                "12-pin Wiring",
-                "Trailer Electrical Connections"
-            ]
-        },
-        {
-            name: "Second Battery System Setup / Dual Battery Systems Setup",
-            slug: "second-battery-system-setup",
-            shortDescription: "Ensure reliable power with our dual battery system setups, perfect for long trips and heavy electrical loads.",
-            longDescription: "Our Second Battery System Setup service provides the installation of dual battery systems to ensure your vehicle has a reliable source of power for additional electrical needs. Ideal for long journeys, off-road adventures, or when using power-intensive accessories, our setup ensures you never run out of juice.",
-            image: "dual-battery-system.png",
-            imageExtension: "jpg",
-            keywords: [
-                "Dual Battery Setup",
-                "Second Battery Installation",
-                "Vehicle Power Management"
             ]
         },
         {
@@ -244,44 +202,6 @@ module.exports =  {
                 "Obstacle Detection"
             ],
             subServices: []
-        },
-        {
-            name: 'Installations for Traffic Management Vehicles',
-            slug: 'installations-for-traffic-management-vehicles',
-            shortDescription: 'Professional installations of critical systems for traffic management vehicles, ensuring safety and compliance.',
-            longDescription: 'Our installation services for traffic management vehicles are designed to enhance safety and operational efficiency. We provide and install essential equipment such as arrow boards, VMS boards, and UHF radios, all tailored to meet industry standards. Our installations are carried out by skilled technicians who ensure that each system is set up for optimal performance. Whether you’re managing traffic flow, providing public information, or ensuring clear communication, our services are geared towards maximizing safety and reliability in all traffic management scenarios.',
-            image: 'installations-for-traffic-management-vehicles.png',
-            imageExtension: 'png',
-            keywords: ['Traffic Management', 'Vehicle Installations', 'Arrow Boards', 'VMS Boards', 'UHF Radios'],
-            subServices: [
-                {
-                    name: 'Arrow Boards Supply and Installation',
-                    slug: 'arrow-boards-supply-and-installation',
-                    shortDescription: 'High-quality arrow boards for effective traffic management.',
-                    description: 'We supply and install top-of-the-line arrow boards designed to enhance traffic control and safety. Our arrow boards are durable, easy to operate, and meet industry standards, ensuring reliable performance in all conditions.',
-                    image: 'arrow-boards-supply-and-installation.png',
-                    imageExtension: 'png',
-                    keywords: ['arrow boards', 'traffic management', 'installation', 'safety']
-                },
-                {
-                    name: 'VMS Boards Supply and Installation',
-                    slug: 'vms-boards-supply-and-installation',
-                    shortDescription: 'Versatile VMS boards for dynamic messaging and traffic control.',
-                    description: 'Our VMS (Variable Message Sign) boards are designed for flexibility and high visibility. Ideal for road safety, advertising, and public information, we provide full installation services to ensure your VMS boards are operational and effective.',
-                    image: 'vms-boards-supply-and-installation.png',
-                    imageExtension: 'png',
-                    keywords: ['VMS boards', 'variable message signs', 'traffic control', 'installation', 'public information']
-                },
-                {
-                    name: 'UHF Radio Supply and Installation',
-                    slug: 'uhf-radio-supply-and-installation',
-                    shortDescription: 'Reliable UHF radios for clear communication in all environments.',
-                    description: 'We offer a wide range of UHF radios that are perfect for both commercial and industrial use. Our installation services ensure optimal performance, providing you with clear, uninterrupted communication even in challenging conditions.',
-                    image: 'uhf-radio-supply-and-installation.png',
-                    imageExtension: 'png',
-                    keywords: ['UHF radios', 'communication equipment', 'installation', 'commercial', 'industrial']
-                }
-            ]
         }
     ]
 }

@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="mb-9 mt-3 lg:mb-0 lg:mt-0">
                         <Link href={'/'}>
                             <img
-                                src="/images/logo.png"
+                                src="/images/pk-mobile-auto-electrical.png"
                                 alt="PK Auto care"
                                 width={125}
                                 height={50}
@@ -29,15 +29,11 @@ const Footer = () => {
                                         Services</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/auto-care-adelaide/services/electrical/truck-trailer-auto-electrical-services#electric-brakes-repair-installation" className="hover:underline">Engine Repair and Services</Link>
+                                    <Link href="/auto-care-adelaide/services/mechanical/engine-repairs/" className="hover:underline">Engine Repair and Services</Link>
                                 </li>
                                 <li className={`mb-2`}>
                                     <Link href="/auto-care-adelaide/services/specialty-services" className="hover:underline">Specialty
                                         Services</Link>
-                                </li>
-                                <li className={`mb-2`}>
-                                    <Link href="/auto-care-adelaide/services/fleet-management" className="hover:underline">Fleet
-                                        Management</Link>
                                 </li>
                                 <li className={`mb-2`}>
                                     <Link href="/auto-care-adelaide/services/battery" className="hover:underline">Battery Care &
@@ -62,16 +58,10 @@ const Footer = () => {
                                         Engineering</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/auto-care-adelaide/services/specialty-services" className="hover:underline">Specialty
-                                        Services</Link>
+                                    <Link href="/auto-care-adelaide/services/battery" className="hover:underline">Battery Replacements and Supply</Link>
                                 </li>
                                 <li className={`mb-2`}>
-                                    <Link href="/auto-care-adelaide/services/fleet-management" className="hover:underline">Fleet
-                                        Management</Link>
-                                </li>
-                                <li className={`mb-2`}>
-                                    <Link href="/auto-care-adelaide/services/battery" className="hover:underline">Battery Care &
-                                        Supply</Link>
+                                    <Link href="/auto-care-adelaide/services/vehicle-accessory-fitter" className="hover:underline">Vehicle Accessory Services</Link>
                                 </li>
                             </ul>
                         </div>
@@ -80,13 +70,23 @@ const Footer = () => {
                             <h2 className="mb-6 text-sm font-semibold text-header uppercase dark:text-white">Contact</h2>
                             <ul className="text-para font-light">
                                 <li className="mb-4">
-                                    <Link href="tel:0412241341" className="flex gap-3">
+                                    <Link href={`tel:${SiteConfig.mobilePhone}`} className="flex gap-3">
                                         <img
                                             src="/images/telephone.png"
                                             alt="PK Auto care"
                                             width={25}
                                             height={25}
-                                        />{SiteConfig.telephone}
+                                        />{SiteConfig.mobilePhone}
+                                    </Link>
+                                </li>
+                                <li className="mb-4">
+                                    <Link href={`tel:${SiteConfig.lanPhone}`} className="flex gap-3">
+                                        <img
+                                            src="/images/telephone.png"
+                                            alt="PK Auto care"
+                                            width={25}
+                                            height={25}
+                                        />{SiteConfig.lanPhone}
                                     </Link>
                                 </li>
                                 <li className="flex gap-3 mb-4">

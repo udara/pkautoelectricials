@@ -20,7 +20,7 @@ module.exports =  {
             ]
         },
         {
-            name: 'Leak Detection and Repair and Top-Up',
+            name: 'Leak Detection and Repairs',
             slug: 'leak-detection-and-repair-and-top-up',
             shortDescription: 'Pinpoint and repair any leaks or potential leaks in your air conditioning system.',
             longDescription: 'Our Leak Detection and Repair service identifies and repairs leaks within your vehicle\'s air conditioning system. We utilize specialized equipment to locate even the smallest leaks, ensuring your system operates efficiently and reliably.',
@@ -36,7 +36,7 @@ module.exports =  {
             name: 'Air Conditioning Re-Gas',
             slug: 'air-conditioning-re-gas',
             shortDescription: 'Re-gas your vehicle’s air conditioning system for optimal cooling performance.',
-            longDescription: 'Our Air Conditioning Re-Gas service replenishes the refrigerant in your vehicle\'s air conditioning system, restoring its cooling efficiency. We use high-quality refrigerants and ensure the correct levels are maintained for peak performance.',
+            longDescription: 'Our Air Conditioning Re-Gas service replenishes the refrigerant in your vehicle\'s air conditioning system, restoring its cooling efficiency. We use R134a gas and ensure the correct levels are maintained for peak performance. During the re-gas we mix UV dye or fluorescent dye to quickly and accurately locate refrigerant gas leaks',
             image: 'air-conditioning-re-gas.png',
             imageExtension: 'png',
             keywords: [
@@ -61,8 +61,8 @@ module.exports =  {
         {
             name: 'Compressor Inspection and Replacement',
             slug: 'compressor-inspection-and-replacement',
-            shortDescription: 'Ensure your air conditioning system\'s compressor is functioning properly or replace it if necessary.',
-            longDescription: 'Ensure your air conditioning system\'s compressor is functioning properly or replace it if necessary.',
+            shortDescription: 'Ensure your air conditioning system\'s compressor is functioning properly. If necessary, replace components such as the control valve and clutch to maintain optimal performance.',
+            longDescription: 'Ensure your air conditioning system\'s compressor is functioning properly. If necessary, replace components such as the control valve and clutch to maintain optimal performance.',
             image: 'compressor-inspection-and-replacement.png',
             imageExtension: 'png',
             keywords: [
@@ -103,19 +103,6 @@ module.exports =  {
             shortDescription: 'We repair or replace damaged aluminium pipes and hoses in your vehicle\'s air conditioning system to ensure optimal cooling performance and prevent leaks.',
             longDescription: 'We repair or replace damaged aluminium pipes and hoses in your vehicle\'s air conditioning system to ensure optimal cooling performance and prevent leaks.',
             image: 'aluminium-air-conditioning-pipe-repair-and-hose-repair.png',
-            imageExtension: 'png',
-            keywords: [
-                'AC Repair',
-                'Air Conditioning Service',
-                'Vehicle AC Maintenance'
-            ]
-        },
-        {
-            name: 'Thermostat and Temperature Control Calibration',
-            slug: 'thermostat-and-temperature-control-calibration',
-            shortDescription: 'Calibrate the air conditioning system\'s thermostat and temperature controls for accurate climate control.',
-            longDescription: 'Calibrate the air conditioning system\'s thermostat and temperature controls for accurate climate control.',
-            image: 'thermostat-and-temperature-control-calibration.png',
             imageExtension: 'png',
             keywords: [
                 'AC Repair',

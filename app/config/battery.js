@@ -58,19 +58,6 @@ module.exports =  {
                 'Battery Recycling',
                 'Eco-Friendly Battery Disposal'
             ]
-        },
-        {
-            name: 'Battery Management System Installation',
-            slug: 'battery-disposal-recycling',
-            shortDescription: '',
-            longDescription: '',
-            image: 'battery-disposal-recycling.png',
-            imageExtension: 'png',
-            keywords: [
-                'Battery Disposal',
-                'Battery Recycling',
-                'Eco-Friendly Battery Disposal'
-            ]
         }
     ]
 }
