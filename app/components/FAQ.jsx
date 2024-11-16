@@ -40,7 +40,7 @@ const FAQ = () => {
                     >
                         <div className="w-full lg:w-1/2">
                             <img
-                                src="/images/faqs.png"
+                                src="/images/faqs.webp"
                                 alt="PK Auto care"
                                 placeholder="blur"
                                 className={"w-full rounded-xl opacity-90"}

@@ -16,7 +16,7 @@ const Hero = () => {
                     <div className={`flex items-start md:items-center gap-8`}>
                         <div className={`hidden md:block`}>
                             <img
-                                src="/images/RAA-Approved-Compact.webp"
+                                src="/images/RAA-Approved-Compact.png"
                                 alt="PK Auto care"
                                 className="mr-[8px]"
                                 width="110"
@@ -25,7 +25,7 @@ const Hero = () => {
                         </div>
                         <h1 className={`text-4xl md:text-5xl text-white font-racing max-w-[600px]`}>
                             <span title={`RAA Approved Repairer`} className={`flex md:hidden text-black mr-3 mb-2 `}>
-                                <img
+                                <imgx
                                     src="/images/RAA-Arrow.png"
                                     alt="PK Auto care"
                                     className="mr-[8px]"

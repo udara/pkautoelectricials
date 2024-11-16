@@ -4,7 +4,7 @@ const AboutUs = () => {
         <div id='about' className={`lg:flex  items-start max-w-screen-xl mx-auto mt-12 gap-12 p-6`}>
             <div className={`w-full lg:w-1/2`}>
                 <img
-                    src="/images/services/about-pk-auto-care.png"
+                    src="/images/services/about-pk-auto-care.webp"
                     alt="PK Auto care"
                     className={"w-full opacity-80 rounded-xl"}
                     width={400}
