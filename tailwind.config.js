@@ -11,7 +11,7 @@ module.exports = {
         "slantedGrey": "linear-gradient(170deg,#fff 53%,#fafafa 0,#fafafa 123%)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        'hero': "url('/images/hero.jpg')",
+        'hero': "url('/images/hero.webp')",
       },
       colors: {
         crimsonFlame:'#d32026',

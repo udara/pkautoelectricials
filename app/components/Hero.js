@@ -1,9 +1,12 @@
 import HeroBox from "./HeroBox";
-import config from "../config/index"
+import config from "../config/index";
+import Head from "next/head";
 const Hero = () => {
-
-    const renderedHeroBoxes = config.feature.map((item,index) => {
-        return <HeroBox key={`herobox-${index}`} header={item.category} list={item.subServices}/>
+    <Head>
+        <link rel="preload" as="image" href="/hero.webp" />
+    </Head>
+    const renderedHeroBoxes = config.feature.map((item, index) => {
+        return <HeroBox key={`herobox-${index}`} header={item.category} list={item.subServices} />
     });
     return (
         <div className={`w-full bg-hero bg-cover bg-center min-h-[calc(100vh-111px)]`}>
@@ -13,7 +16,7 @@ const Hero = () => {
                     <div className={`flex items-start md:items-center gap-8`}>
                         <div className={`hidden md:block`}>
                             <img
-                                src="/images/RAA-Approved-Compact.png"
+                                src="/images/RAA-Approved-Compact.webp"
                                 alt="PK Auto care"
                                 className="mr-[8px]"
                                 width="110"
