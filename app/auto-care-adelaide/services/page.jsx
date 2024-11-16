@@ -1,5 +1,5 @@
 import Breadcrums from "../../components/Breadcrums";
-import IconListBoxWithLink from "../../components/IconListBoxWithLink";
+import ServiceDescriptionBox from "../../components/ServiceDescriptionBox";
 
 
 export const metadata = {
@@ -17,13 +17,13 @@ const ServicesMainPage = () => {
             We provide a full range of automotive services, including air conditioning repairs, battery testing and installation, and electrical and mechanical maintenance. For businesses, we offer complete fleet management along with specialized services for traffic management vehicles, caravans, boats, and earth-moving equipment installations, all focused on enhancing your vehicle&apos;s safety and durability.
             </p>
             <div
-                className="grid mt-12 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <IconListBoxWithLink text={`Mechanical`} link={`/auto-care-adelaide/services/mechanical`} image={`/images/mechanicalIcon.png`} />
-                <IconListBoxWithLink text={`Auto Electrical`} link={`/auto-care-adelaide/services/electrical`} image={`/images/electricalIcon.png`} />
-                <IconListBoxWithLink text={`Air Conditioning`} link={`/auto-care-adelaide/services/air-conditioning`} image={`/images/ac_unit.png`} />
-                <IconListBoxWithLink text={`Specialty Services`} link={`/auto-care-adelaide/services/specialty-services`} image={`/images/special.png`} />
-                <IconListBoxWithLink text={`Accessory Fitting`} link={`/auto-care-adelaide/services/vehicle-accessory-fitter`} image={`/images/accessoryFitting.png`} />
-                <IconListBoxWithLink text={`Battery Replacement`} link={`/auto-care-adelaide/services/battery`} image={`/images/battery.png`} />
+                className="grid mt-12 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
+                <ServiceDescriptionBox  description={`Vehicle Maintenance, Engine, Transmission, Brakes and Clutch Repair and Services`} title={`Mechanical`} link={`/auto-care-adelaide/services/mechanical`} image={`/images/mechanicalIcon.png`} />
+                <ServiceDescriptionBox  description={`Lighting and Wiring Services and Fault Diagnostics. Starter Motor and Alternator Inspection/Replacement`} title={`Auto Electrical`} link={`/auto-care-adelaide/services/electrical`} image={`/images/electricalIcon.png`} />
+                <ServiceDescriptionBox  description={`Leak Detection/Repairs, Re-Gas, Cleaning/Inspection/Replacement of AC Related components`} title={`Air Conditioning`} link={`/auto-care-adelaide/services/air-conditioning`} image={`/images/ac_unit.png`} />
+                <ServiceDescriptionBox  description={`Installations for Traffic Management Vehicles, Handbrake Alarms for Mining, Traffic Management Vehicles and Trucks`} title={`Specialty Services`} link={`/auto-care-adelaide/services/specialty-services`} image={`/images/special.png`} />
+                <ServiceDescriptionBox  description={`Accessory Fitting for Caravans, Trucks & Trailers, LED Driving Lights / Mining Light Bars / Emergency Lighting`} title={`Accessory Fitting`} link={`/auto-care-adelaide/services/vehicle-accessory-fitter`} image={`/images/accessoryFitting.png`} />
+                <ServiceDescriptionBox  description={`Testing and Diagnostics, Supply and Installation. Battery Disposal and Recycling `} title={`Battery Replacement`} link={`/auto-care-adelaide/services/battery`} image={`/images/battery.png`} />
             </div>
         </div>
     );
