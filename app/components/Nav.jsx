@@ -15,7 +15,7 @@ const Nav = () => {
                 className="bg-charcoal dark:bg-charcoal fixed w-full z-20 top-0 start-0 dark:border-gray-600">
                 <div className={`bg-crimsonFlame text-xl justify-center flex items-center gap-3 py-2 text-white h-10 text-center`}>
                     <img
-                        className={`max-w-[25px]`}
+                        className={`w-[25px]`}
                         src="/images/location-nav.png"
                         alt="PK Auto care"
                     />
@@ -27,7 +27,7 @@ const Nav = () => {
                             <img
                                 src="/images/logo.png"
                                 alt="PK Auto care"
-                                className={`max-w-[160px]`}
+                                className={`w-[160px]`}
                             />
                         </Link>
                     </div>

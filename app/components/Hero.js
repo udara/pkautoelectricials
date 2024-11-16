@@ -16,7 +16,7 @@ const Hero = () => {
                     <div className={`flex items-start md:items-center gap-8`}>
                         <div className={`hidden md:block`}>
                             <img
-                                src="/images/RAA-Approved-Compact.png"
+                                src="/images/RAA-Approved-Compact.webp"
                                 alt="PK Auto care"
                                 className="mr-[8px]"
                                 width="110"
