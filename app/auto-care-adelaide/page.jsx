@@ -4,7 +4,8 @@ import ServiceDescriptionBox from "../components/ServiceDescriptionBox";
 ServiceDescriptionBox
 
 export const metadata = {
-    title: "PK Auto Care - Auto Electrical, Mechanical and Air Conditioning Services in Adelaide"
+    title: "PK Auto Care - Auto Electrical, Mechanical and Air Conditioning Services in Adelaide",
+        description:"PK Auto Care - Auto Electrical, Mechanical and Air Conditioning Services in Adelaide"
 };
 
 const ServicesMainPage = () => {
